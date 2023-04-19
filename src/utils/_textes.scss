@@ -1,0 +1,17 @@
+@mixin titre-page {
+    font-family: 'Chillax Variable';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 87px;
+    line-height: 122px;
+}
+
+@mixin navigation-item {
+    font-family: 'Liquide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}

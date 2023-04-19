@@ -1,0 +1,21 @@
+//Import font Liquide
+
+@font-face {
+    font-family: 'liquide';
+    src: url('../../fonts/Liquide/liquide_-_free_typeface-webfont.woff2') format('woff2'),
+         url('../../fonts/Liquide/liquide_-_free_typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// Import font Chillax
+
+@font-face {
+    font-family: 'chillax';
+    src: url('../../fonts/Chillax/chillax-variable-webfont.woff2') format('woff2'),
+         url('../../fonts/Chillax/chillax-variable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
