@@ -1,7 +1,9 @@
+import CodeIcon from './components/icons/code/code_icon';
+
 function App() {
 	return (
 		<div className="App">
-			<h1 style={{ fontFamily: 'chillax' }}>Le reeeeeve</h1>
+			<CodeIcon theme={'sombre'} />
 		</div>
 	);
 }

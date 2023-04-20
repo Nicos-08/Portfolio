@@ -1,0 +1,11 @@
+@import "../../../utils/utils_global";
+
+
+.code_icon {
+    &--sombre {
+        fill: $contrastant_fonce;
+    }
+    &--clair {
+        fill: $complementaire;
+    }
+}
