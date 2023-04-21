@@ -1,3 +1,12 @@
 @mixin blur_image {
     filter: blur(50px);
 }
+
+@mixin icon_style {
+    &--sombre {
+        fill: $contrastant_fonce;
+    }
+    &--clair {
+        fill: $complementaire;
+    }
+}
