@@ -1,9 +1,9 @@
-import CroixIcon from "./components/icons/croix/croix_icon";
+import DesignIcon from "./components/icons/design/design_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<CroixIcon theme={"sombre"} />
+			<DesignIcon theme={"sombre"} />
 		</div>
 	);
 }
