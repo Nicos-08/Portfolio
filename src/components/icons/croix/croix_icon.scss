@@ -2,25 +2,5 @@
 
 
 .croix_icon {
-    svg {
-        cursor: pointer;
-    }
-    &--sombre {
-        fill: $contrastant_fonce;
-    }
-    &--clair {
-        fill: $complementaire;
-    }
-    svg:hover > &--sombre {
-        fill: $contrastant_fonce_hover;
-    }
-    svg:hover > &--clair {
-        fill: $contrastant_clair;
-    }
-    svg:active > &--sombre {
-        fill: $contrastant_fonce_click;
-    }
-    svg:active > &--clair {
-        fill: $contrastant_clair_hover;
-    }
+    @include icon_cliquable_style
 }
