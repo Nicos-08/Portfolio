@@ -1,0 +1,23 @@
+.croix_icon svg {
+  cursor: pointer;
+}
+.croix_icon--sombre {
+  fill: #1A0045;
+}
+.croix_icon--clair {
+  fill: #F0F2FE;
+}
+svg:hover > .croix_icon--sombre {
+  fill: #4E3E7A;
+}
+svg:hover > .croix_icon--clair {
+  fill: #BCC6FF;
+}
+svg:active > .croix_icon--sombre {
+  fill: #7F64C9;
+}
+svg:active > .croix_icon--clair {
+  fill: #A6B2FF;
+}
+
+/*# sourceMappingURL=croix_icon.css.map */

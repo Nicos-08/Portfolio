@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import '../../../styles/components/icons/code/code_icon.css';
+import PropTypes from "prop-types";
+import "../../../styles/components/icons/code/code_icon.css";
 
 const CodeIcon = ({ theme }) => {
 	return (

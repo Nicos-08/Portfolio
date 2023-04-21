@@ -1,9 +1,9 @@
-import CodeIcon from './components/icons/code/code_icon';
+import CroixIcon from "./components/icons/croix/croix_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<CodeIcon theme={'sombre'} />
+			<CroixIcon theme={"sombre"} />
 		</div>
 	);
 }
