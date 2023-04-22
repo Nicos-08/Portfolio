@@ -2,12 +2,22 @@
     filter: blur(50px);
 }
 
-@mixin icon_style {
-    &--sombre {
-        fill: $contrastant_fonce;
+@mixin icon_style($modificateur) {
+    @if ($modificateur == "fill") {
+        &--sombre {
+            fill: $contrastant_fonce;
+        }
+        &--clair {
+            fill: $complementaire;
+        }
     }
-    &--clair {
-        fill: $complementaire;
+    @if ($modificateur == "stroke") {
+        &--sombre {
+            stroke: $contrastant_fonce;
+        }
+        &--clair {
+            stroke: $complementaire;
+        }
     }
 }
 

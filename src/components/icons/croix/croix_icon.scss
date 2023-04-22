@@ -2,5 +2,5 @@
 
 
 .croix_icon {
-    @include icon_cliquable_style
+    @include icon_cliquable_style("fill")
 }

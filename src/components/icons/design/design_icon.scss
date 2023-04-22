@@ -1,5 +1,5 @@
 @import "../../../utils/utils_global";
 
 .design_icon {
-    @include icon_style
+    @include icon_style("fill")
 }
