@@ -1,0 +1,5 @@
+@import "../../../utils/utils_global";
+
+.film_icon {
+    @include icon_style("stroke")
+}

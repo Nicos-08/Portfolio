@@ -1,9 +1,9 @@
-import DesignIcon from "./components/icons/design/design_icon";
+import FilmIcon from "./components/icons/film/film_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<DesignIcon theme={"sombre"} />
+			<FilmIcon theme="sombre" />
 		</div>
 	);
 }
