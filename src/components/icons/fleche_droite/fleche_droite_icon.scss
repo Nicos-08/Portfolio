@@ -1,0 +1,5 @@
+@import "../../../utils/utils_global";
+
+.fleche_droite_icon {
+    @include icon_cliquable_style
+}

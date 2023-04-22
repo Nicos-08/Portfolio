@@ -1,0 +1,23 @@
+.fleche_droite_icon svg {
+  cursor: pointer;
+}
+.fleche_droite_icon--sombre {
+  fill: #1A0045;
+}
+.fleche_droite_icon--clair {
+  fill: #F0F2FE;
+}
+svg:hover > .fleche_droite_icon--sombre {
+  fill: #4E3E7A;
+}
+svg:hover > .fleche_droite_icon--clair {
+  fill: #BCC6FF;
+}
+svg:active > .fleche_droite_icon--sombre {
+  fill: #7F64C9;
+}
+svg:active > .fleche_droite_icon--clair {
+  fill: #A6B2FF;
+}
+
+/*# sourceMappingURL=fleche_droite_icon.css.map */
