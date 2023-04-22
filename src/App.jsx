@@ -1,9 +1,9 @@
-import FilmIcon from "./components/icons/film/film_icon";
+import FlecheBasIcon from "./components/icons/fleche_bas/fleche_bas_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<FilmIcon theme="sombre" />
+			<FlecheBasIcon theme="sombre" />
 		</div>
 	);
 }

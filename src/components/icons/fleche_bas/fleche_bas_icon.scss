@@ -1,0 +1,5 @@
+@import "../../../utils/utils_global";
+
+.fleche_bas_icon {
+    @include icon_style("fill")
+}
