@@ -1,9 +1,9 @@
-import FlecheDroiteIcon from "./components/icons/fleche_droite/fleche_droite_icon";
+import FlecheGaucheIcon from "./components/icons/fleche_gauche/fleche_gauche_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<FlecheDroiteIcon theme="sombre" />
+			<FlecheGaucheIcon theme="sombre" />
 		</div>
 	);
 }
