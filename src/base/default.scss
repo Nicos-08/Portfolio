@@ -1,0 +1,10 @@
+@import "../utils/utils_global";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    height: 100vh;
+    background-color: $contrastant_fonce;
+}
