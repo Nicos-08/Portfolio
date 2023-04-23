@@ -8,16 +8,21 @@ import CroixIcon from "../../icons/croix/croix_icon";
 const MenuDeNavigation = ({ theme, menu_ouvert, arborescence }) => {
 	return (
 		<div className="menu_de_navigation">
-			<div className="menu_de_navigation--partie_gauche">
+			<div className="menu_de_navigation__partie_gauche">
 				<LogoIcon format="petit" />
 				<div className="arborescence">
-					<span>{`Portfolio `}</span>
+					<span
+						className={`menu_de_navigation--partie_gauche--${theme}`}
+					>{`Portfolio `}</span>
 					{arborescence.map((onglet, index) => (
-						<span key={`${onglet}-${index}`}>{`/ ${onglet} `}</span>
+						<span
+							className={`menu_de_navigation--partie_gauche--${theme}`}
+							key={`${onglet}-${index}`}
+						>{`/ ${onglet} `}</span>
 					))}
 				</div>
 			</div>
-			<div className="menu_de_navigation--partie_droite">
+			<div className="menu_de_navigation__partie_droite">
 				<ThemeIcon theme={theme} />
 				{menu_ouvert ? (
 					<CroixIcon theme={theme} />

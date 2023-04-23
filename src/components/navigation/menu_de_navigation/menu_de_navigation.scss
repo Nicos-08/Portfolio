@@ -7,20 +7,25 @@
     padding-top: 27px;
     padding-left: 32px;
     padding-right: 32px;
-    &--partie_gauche {
+    &__partie_gauche {
         display: flex;
         align-items: center;
         gap: 34px;
+        &--sombre {
+            color: $complementaire
+        }
+        &--clair {
+            color: $contrastant-fonce;
+        }
         span {
             font-family: 'Chillax-Medium';
             font-style: normal;
             font-weight: 500;
             font-size: 17px;
             line-height: 24px;
-            color: $complementaire;
         }
     }
-    &--partie_droite {
+    &__partie_droite {
         display: flex;
         align-items: center;
         gap: 34px;

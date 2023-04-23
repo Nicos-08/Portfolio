@@ -6,20 +6,25 @@
   padding-left: 32px;
   padding-right: 32px;
 }
-.menu_de_navigation--partie_gauche {
+.menu_de_navigation__partie_gauche {
   display: flex;
   align-items: center;
   gap: 34px;
 }
-.menu_de_navigation--partie_gauche span {
+.menu_de_navigation__partie_gauche--sombre {
+  color: #F0F2FE;
+}
+.menu_de_navigation__partie_gauche--clair {
+  color: #1A0045;
+}
+.menu_de_navigation__partie_gauche span {
   font-family: "Chillax-Medium";
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #F0F2FE;
 }
-.menu_de_navigation--partie_droite {
+.menu_de_navigation__partie_droite {
   display: flex;
   align-items: center;
   gap: 34px;
