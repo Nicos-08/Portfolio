@@ -1,9 +1,9 @@
-import MenuHamburgerIcon from "./components/icons/menu_hamburger/menu_hamburger_icon";
+import PleinEcranIcon from "./components/icons/plein_ecran/plein_ecran_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<MenuHamburgerIcon theme="sombre" />
+			<PleinEcranIcon />
 		</div>
 	);
 }

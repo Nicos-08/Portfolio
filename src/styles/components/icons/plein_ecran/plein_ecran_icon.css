@@ -1,0 +1,11 @@
+.plein_ecran svg path {
+  fill: #F0F2FE;
+}
+.plein_ecran svg:hover {
+  cursor: pointer;
+}
+.plein_ecran svg:hover > path {
+  fill: #BCC6FF;
+}
+
+/*# sourceMappingURL=plein_ecran_icon.css.map */

@@ -1,0 +1,15 @@
+@import "../../../utils/utils_global";
+
+.plein_ecran {
+    svg {
+        path {
+            fill: $complementaire;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+        &:hover > path {
+            fill: $contrastant_clair;
+        }
+    }
+}
