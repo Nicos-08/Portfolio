@@ -1,0 +1,5 @@
+@import "../../../utils/utils_global";
+
+.theme_icon {
+    @include icon_cliquable_style(true)
+}

@@ -1,9 +1,9 @@
-import PleinEcranIcon from "./components/icons/plein_ecran/plein_ecran_icon";
+import ThemeIcon from "./components/icons/theme/theme_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<PleinEcranIcon />
+			<ThemeIcon theme="sombre" />
 		</div>
 	);
 }

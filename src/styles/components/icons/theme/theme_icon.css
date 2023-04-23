@@ -1,0 +1,17 @@
+.theme_icon svg {
+  cursor: pointer;
+}
+.theme_icon--sombre {
+  fill: #BCC6FF;
+}
+.theme_icon--clair {
+  fill: #1A0045;
+}
+svg:hover > .theme_icon--sombre {
+  fill: #F0F2FE;
+}
+svg:hover > .theme_icon--clair {
+  fill: #392D85;
+}
+
+/*# sourceMappingURL=theme_icon.css.map */
