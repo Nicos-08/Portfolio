@@ -1,9 +1,14 @@
-import ThemeIcon from "./components/icons/theme/theme_icon";
+import MenuDeNavigation from "./components/navigation/menu_de_navigation/menu_de_navigation";
+import "./styles/base/fonts.css";
+import "./styles/base/default.css";
 
 function App() {
 	return (
 		<div className="App">
-			<ThemeIcon theme="sombre" />
+			<MenuDeNavigation
+				theme="sombre"
+				arborescence={["Page de projet", "Choixpeau magique"]}
+			/>
 		</div>
 	);
 }

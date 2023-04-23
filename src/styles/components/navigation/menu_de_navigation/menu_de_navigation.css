@@ -1,0 +1,28 @@
+.menu_de_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.menu_de_navigation--partie_gauche {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.menu_de_navigation--partie_gauche span {
+  font-family: "Chillax-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #F0F2FE;
+}
+.menu_de_navigation--partie_droite {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+/*# sourceMappingURL=menu_de_navigation.css.map */
