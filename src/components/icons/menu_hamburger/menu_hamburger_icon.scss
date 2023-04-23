@@ -1,0 +1,5 @@
+@import "../../../utils/utils_global";
+
+.menu_hamburger_icon {
+    @include icon_cliquable_style(true);
+}

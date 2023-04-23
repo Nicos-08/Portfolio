@@ -22,7 +22,7 @@
 }
 
 @mixin icon_cliquable_style($inverse) {
-    @if ($inverse) {
+    @if ($inverse == true) {
         svg {
             cursor: pointer;
         }
@@ -38,26 +38,27 @@
         svg:hover > &--clair {
             fill: $contrastant;
         }
-    }
-    svg {
-        cursor: pointer;
-    }
-    &--sombre {
-        fill: $contrastant_fonce;
-    }
-    &--clair {
-        fill: $complementaire;
-    }
-    svg:hover > &--sombre {
-        fill: $contrastant_fonce_hover;
-    }
-    svg:hover > &--clair {
-        fill: $contrastant_clair;
-    }
-    svg:active > &--sombre {
-        fill: $contrastant_fonce_click;
-    }
-    svg:active > &--clair {
-        fill: $contrastant_clair_hover;
+    } @if ($inverse == false) {
+        svg {
+            cursor: pointer;
+        }
+        &--sombre {
+            fill: $contrastant_fonce;
+        }
+        &--clair {
+            fill: $complementaire;
+        }
+        svg:hover > &--sombre {
+            fill: $contrastant_fonce_hover;
+        }
+        svg:hover > &--clair {
+            fill: $contrastant_clair;
+        }
+        svg:active > &--sombre {
+            fill: $contrastant_fonce_click;
+        }
+        svg:active > &--clair {
+            fill: $contrastant_clair_hover;
+        }
     }
 }

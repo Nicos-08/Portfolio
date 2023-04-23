@@ -1,9 +1,9 @@
-import LogoIcon from "./components/icons/logo/logo_icon";
+import MenuHamburgerIcon from "./components/icons/menu_hamburger/menu_hamburger_icon";
 
 function App() {
 	return (
 		<div className="App">
-			<LogoIcon format="petit" />
+			<MenuHamburgerIcon theme="sombre" />
 		</div>
 	);
 }
