@@ -21,7 +21,24 @@
     }
 }
 
-@mixin icon_cliquable_style {
+@mixin icon_cliquable_style($inverse) {
+    @if ($inverse) {
+        svg {
+            cursor: pointer;
+        }
+        &--sombre {
+            fill: $contrastant_clair;
+        }
+        &--clair {
+            fill: $contrastant_fonce;
+        }
+        svg:hover > &--sombre {
+            fill: $complementaire;
+        }
+        svg:hover > &--clair {
+            fill: $contrastant;
+        }
+    }
     svg {
         cursor: pointer;
     }

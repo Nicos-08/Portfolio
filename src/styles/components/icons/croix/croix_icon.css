@@ -1,22 +1,38 @@
-/* Error: Only 0 arguments allowed, but 1 was passed.
- *    ,--> src\components\icons\croix\croix_icon.scss
- * 5  |     @include icon_cliquable_style("fill")
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
- *    '
- *    ,--> src\utils\_mixins.scss
- * 24 | @mixin icon_cliquable_style {
- *    |        ==================== declaration
- *    '
- *   src\components\icons\croix\croix_icon.scss 5:5  icon-cliquable-style()
- *   src\components\icons\croix\croix_icon.scss 5:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Only 0 arguments allowed, but 1 was passed.\a    \250c \2500 \2500 > src\\components\\icons\\croix\\croix_icon.scss\a 5  \2502      @include icon_cliquable_style("fill")\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a    \2575 \a    \250c \2500 \2500 > src\\utils\\_mixins.scss\a 24 \2502  @mixin icon_cliquable_style {\d\a    \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a    \2575 \a   src\\components\\icons\\croix\\croix_icon.scss 5:5  icon-cliquable-style()\a   src\\components\\icons\\croix\\croix_icon.scss 5:5  root stylesheet';
+.croix_icon svg {
+  cursor: pointer;
 }
+.croix_icon--sombre {
+  fill: #BCC6FF;
+}
+.croix_icon--clair {
+  fill: #1A0045;
+}
+svg:hover > .croix_icon--sombre {
+  fill: #F0F2FE;
+}
+svg:hover > .croix_icon--clair {
+  fill: #392D85;
+}
+.croix_icon svg {
+  cursor: pointer;
+}
+.croix_icon--sombre {
+  fill: #1A0045;
+}
+.croix_icon--clair {
+  fill: #F0F2FE;
+}
+svg:hover > .croix_icon--sombre {
+  fill: #4E3E7A;
+}
+svg:hover > .croix_icon--clair {
+  fill: #BCC6FF;
+}
+svg:active > .croix_icon--sombre {
+  fill: #7F64C9;
+}
+svg:active > .croix_icon--clair {
+  fill: #A6B2FF;
+}
+
+/*# sourceMappingURL=croix_icon.css.map */
