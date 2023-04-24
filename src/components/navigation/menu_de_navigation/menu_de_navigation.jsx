@@ -12,11 +12,11 @@ const MenuDeNavigation = ({ theme, menu_ouvert, arborescence }) => {
 				<LogoIcon format="petit" />
 				<div className="arborescence">
 					<span
-						className={`menu_de_navigation--partie_gauche--${theme}`}
+						className={`menu_de_navigation__partie_gauche--${theme}`}
 					>{`Portfolio `}</span>
 					{arborescence.map((onglet, index) => (
 						<span
-							className={`menu_de_navigation--partie_gauche--${theme}`}
+							className={`menu_de_navigation__partie_gauche--${theme}`}
 							key={`${onglet}-${index}`}
 						>{`/ ${onglet} `}</span>
 					))}
