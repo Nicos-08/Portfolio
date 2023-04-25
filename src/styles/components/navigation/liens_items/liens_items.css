@@ -1,0 +1,41 @@
+.liens_items {
+  display: inline-flex;
+  gap: 22px;
+  cursor: pointer;
+}
+.liens_items:hover .liens_items--clair {
+  color: #4E3E7A;
+}
+.liens_items:hover .liens_items--sombre {
+  color: #A6B2FF;
+}
+.liens_items:active .liens_items--clair {
+  color: #7F64C9;
+}
+.liens_items:active .liens_items--sombre {
+  color: #6073E5;
+}
+.liens_items__numero {
+  font-family: "liquide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+.liens_items__texte {
+  font-family: "liquide";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 85px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.liens_items--sombre {
+  color: #F0F2FE;
+}
+.liens_items--clair {
+  color: #1A0045;
+}
+
+/*# sourceMappingURL=liens_items.css.map */

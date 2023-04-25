@@ -1,0 +1,45 @@
+@import "../../../utils/utils_global";
+
+.liens_items {
+    display: inline-flex;
+    gap: 22px;
+    cursor: pointer;
+    &:hover {
+        .liens_items--clair {
+            color: $contrastant_fonce_hover
+        }
+        .liens_items--sombre {
+            color: $contrastant_clair_hover
+        }
+    }
+    &:active {
+        .liens_items--clair {
+            color: $contrastant_fonce_click
+        }
+        .liens_items--sombre {
+            color: $contrastant_clair_click
+        }
+    }
+    &__numero {
+        font-family: 'liquide';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    &__texte {
+        font-family: 'liquide';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 85px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    &--sombre {
+        color: $complementaire;
+    }
+    &--clair {
+        color: $contrastant-fonce;
+    }
+}
