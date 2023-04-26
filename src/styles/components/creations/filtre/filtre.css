@@ -1,0 +1,46 @@
+.filtre {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  align-items: center;
+  gap: 9px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.filtre--sombre {
+  background-color: #BCC6FF;
+}
+.filtre--sombre:hover {
+  background-color: #A6B2FF;
+}
+.filtre--sombre:active {
+  background-color: #6073E5;
+}
+.filtre--clair {
+  background-color: #1A0045;
+}
+.filtre--clair:hover {
+  background-color: #4E3E7A;
+}
+.filtre--clair:active {
+  background-color: #7F64C9;
+}
+.filtre__span {
+  font-family: "Chillax-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.filtre__span--sombre {
+  color: #1A0045;
+}
+.filtre__span--clair {
+  color: #F0F2FE;
+}
+
+/*# sourceMappingURL=filtre.css.map */

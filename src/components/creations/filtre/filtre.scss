@@ -1,0 +1,46 @@
+@import "../../../utils/utils_global";
+
+.filtre {
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    align-items: center;
+    gap: 9px;
+    border-radius: 14px;
+    cursor: pointer;
+    &--sombre {
+        background-color: $contrastant_clair;
+        &:hover {
+            background-color: $contrastant_clair_hover;
+        }
+        &:active {
+            background-color: $contrastant_clair_click;
+        }
+    }
+    &--clair {
+        background-color: $contrastant_fonce;
+        &:hover {
+            background-color: $contrastant_fonce_hover;
+        }
+        &:active {
+            background-color: $contrastant_fonce_click;
+        }
+    }
+    &__span {
+        font-family: 'Chillax-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+        &--sombre {
+            color: $contrastant_fonce;
+        }
+        &--clair {
+            color: $complementaire;
+        }
+    }
+}

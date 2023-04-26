@@ -1,5 +1,8 @@
 @import "../../../utils/utils_global";
 
 .film_icon {
-    @include icon_style("stroke")
+    @include icon_style("stroke");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

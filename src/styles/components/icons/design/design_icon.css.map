@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../../utils/_mixins.scss","../../../../utils/_couleurs.scss"],"names":[],"mappings":"AAMQ;EACI,MCDQ;;ADGZ;EACI,MCRK","file":"design_icon.css"}
+{"version":3,"sourceRoot":"","sources":["../../../../components/icons/design/design_icon.scss","../../../../utils/_mixins.scss","../../../../utils/_couleurs.scss"],"names":[],"mappings":"AAEA;EAEI;EACA;EACA;;ACAI;EACI,MCDQ;;ADGZ;EACI,MCRK","file":"design_icon.css"}

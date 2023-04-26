@@ -2,5 +2,8 @@
 
 
 .code_icon {
-    @include icon_style("fill")
+    @include icon_style("fill");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

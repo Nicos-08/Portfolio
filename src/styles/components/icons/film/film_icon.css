@@ -1,3 +1,8 @@
+.film_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .film_icon--sombre {
   stroke: #1A0045;
 }

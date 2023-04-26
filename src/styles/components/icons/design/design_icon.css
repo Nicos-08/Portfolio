@@ -1,3 +1,8 @@
+.design_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .design_icon--sombre {
   fill: #1A0045;
 }

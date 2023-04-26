@@ -1,11 +1,11 @@
-import LiensMenu from "./components/navigation/liens_menu/liens_menu";
+import Filtre from "./components/creations/filtre/filtre";
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
 
 function App() {
 	return (
 		<div className="App">
-			<LiensMenu theme="clair" />
+			<Filtre theme="clair" type="Design" />
 		</div>
 	);
 }
