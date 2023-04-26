@@ -1,0 +1,27 @@
+.tag_card_projet {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-radius: 100px;
+}
+.tag_card_projet--sombre {
+  background-color: #BCC6FF;
+}
+.tag_card_projet--clair {
+  background-color: #F0F2FE;
+}
+.tag_card_projet span {
+  font-family: "Chillax-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #1A0045;
+}
+
+/*# sourceMappingURL=tag_card_projet.css.map */
