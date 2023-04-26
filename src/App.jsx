@@ -1,11 +1,11 @@
-import TagCardProjet from "./components/creations/tag_card_projet/tag_card_projet";
+import TagsList from "./components/creations/tags_list/tags_list";
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
 
 function App() {
 	return (
 		<div className="App">
-			<TagCardProjet theme="sombre" texte="Ceci est un rêve" />
+			<TagsList theme="sombre" />
 		</div>
 	);
 }
