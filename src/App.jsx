@@ -1,14 +1,12 @@
-import TagCardProjetList from "./components/creations/tag_card_projet_list/tag_card_projet_list";
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
+import Card from "./components/creations/card/card";
+import creations from "./data/creations";
 
 function App() {
 	return (
 		<div className="App">
-			<TagCardProjetList
-				theme="sombre"
-				tags={["React", "JavaScript", "SASS"]}
-			/>
+			<Card theme="sombre" projet={creations[0]} />
 		</div>
 	);
 }
