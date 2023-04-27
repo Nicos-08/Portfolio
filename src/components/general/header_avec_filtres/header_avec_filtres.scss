@@ -1,0 +1,21 @@
+@import "../../../utils/utils_global";
+
+.header_avec_filtres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    &__titre {
+        font-family: 'Chillax-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 87px;
+        line-height: 122px;
+        &--sombre {
+            color: $complementaire;
+        }
+        &--clair {
+            color: $contrastant-fonce;
+        }
+    }
+}

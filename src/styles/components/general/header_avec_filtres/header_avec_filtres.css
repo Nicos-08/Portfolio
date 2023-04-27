@@ -1,0 +1,21 @@
+.header_avec_filtres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+.header_avec_filtres__titre {
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 87px;
+  line-height: 122px;
+}
+.header_avec_filtres__titre--sombre {
+  color: #F0F2FE;
+}
+.header_avec_filtres__titre--clair {
+  color: #1A0045;
+}
+
+/*# sourceMappingURL=header_avec_filtres.css.map */
