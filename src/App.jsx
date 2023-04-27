@@ -1,12 +1,11 @@
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
-import Card from "./components/creations/card/card";
-import creations from "./data/creations";
+import Button from "./components/general/button/button";
 
 function App() {
 	return (
 		<div className="App">
-			<Card theme="sombre" projet={creations[0]} />
+			<Button texte="Voir le contenu" />
 		</div>
 	);
 }
