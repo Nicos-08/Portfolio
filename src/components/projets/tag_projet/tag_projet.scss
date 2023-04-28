@@ -1,0 +1,21 @@
+@import "../../../utils/utils_global";
+
+.tag_projet {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background-color: $contrastant-fonce;
+    border-radius: 50px;
+    display: inline-block;
+    span {
+        font-family: 'Chillax-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $complementaire;
+    }
+}
