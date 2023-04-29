@@ -1,0 +1,39 @@
+@import "../../../utils/utils_global";
+
+.duree_projet {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    &__date_debut, &__date_fin {
+        position: relative;
+        top: 10px;
+        font-family: "Chillax-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $contrastant-fonce;
+    }
+    &__fleche_et_duree {
+        display: flex;
+        flex-direction: column;
+        span {
+            position: relative;
+            top: 10px;
+            font-family: 'Chillax-Regular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            color: $contrastant-fonce;
+        }
+        &__fleche {
+            path {
+                fill: $contrastant-fonce;
+            }
+        }
+    }
+}

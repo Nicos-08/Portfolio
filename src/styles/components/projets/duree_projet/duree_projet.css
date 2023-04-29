@@ -1,0 +1,37 @@
+.duree_projet {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.duree_projet__date_debut, .duree_projet__date_fin {
+  position: relative;
+  top: 10px;
+  font-family: "Chillax-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1A0045;
+}
+.duree_projet__fleche_et_duree {
+  display: flex;
+  flex-direction: column;
+}
+.duree_projet__fleche_et_duree span {
+  position: relative;
+  top: 10px;
+  font-family: "Chillax-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #1A0045;
+}
+.duree_projet__fleche_et_duree__fleche path {
+  fill: #1A0045;
+}
+
+/*# sourceMappingURL=duree_projet.css.map */

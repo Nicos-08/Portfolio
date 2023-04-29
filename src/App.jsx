@@ -1,11 +1,22 @@
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
-import TagProjet from "./components/projets/tag_projet/tag_projet";
+import DureeProjet from "./components/projets/duree_projet/duree_projet";
 
 function App() {
 	return (
 		<div className="App">
-			<TagProjet tagNom="React" />
+			<DureeProjet
+				dates={{
+					debut: {
+						mois: "01",
+						annee: "2023",
+					},
+					fin: {
+						mois: "05",
+						annee: "2023",
+					},
+				}}
+			/>
 		</div>
 	);
 }
