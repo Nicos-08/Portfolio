@@ -1,7 +1,8 @@
 .duree_projet {
   display: flex;
-  align-items: center;
   gap: 9px;
+  width: 100%;
+  min-height: 56px;
 }
 .duree_projet__date_debut, .duree_projet__date_fin {
   position: relative;
@@ -15,13 +16,14 @@
   text-transform: uppercase;
   color: #1A0045;
 }
-.duree_projet__fleche_et_duree {
+.duree_projet__ligne_et_duree {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.duree_projet__fleche_et_duree span {
+.duree_projet__ligne_et_duree span {
   position: relative;
-  top: 10px;
   font-family: "Chillax-Regular";
   font-style: normal;
   font-weight: 400;
@@ -30,8 +32,12 @@
   text-align: center;
   color: #1A0045;
 }
-.duree_projet__fleche_et_duree__fleche path {
-  fill: #1A0045;
+.duree_projet__ligne_et_duree__ligne {
+  position: relative;
+  display: inline-block;
+  height: 5px;
+  background-color: #1A0045;
+  min-width: 250px;
 }
 
 /*# sourceMappingURL=duree_projet.css.map */

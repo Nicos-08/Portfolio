@@ -16,23 +16,22 @@ const DureeProjet = ({ dates }) => {
 		let dateFinMois = parseFloat(dateFin.mois);
 		let dateFinAnnee = parseFloat(dateFin.annee);
 
-		if (dateDebutAnnee === dateFinAnnee) {
-			if (dateFinMois - dateDebutMois === 0) {
-				return "1 mois";
-			} else {
-				return `${dateFinMois - dateDebutMois} mois`;
-			}
-		} else {
-			if (dateDebutMois > dateFinMois) {
-				return `${12 - dateDebutMois + dateFinMois} mois et ${
-					dateFinAnnee - dateDebutAnnee - 1
-				} an${dateFinAnnee - dateDebutAnnee - 1 !== 1 && "s"}`;
-			} else {
-				return `${dateFinMois - dateDebutMois} mois et ${
-					dateFinAnnee - dateDebutAnnee
-				} an${dateFinAnnee - dateDebutAnnee - 1 >= 1 ? "s" : ""}`;
-			}
+		if (dateDebutAnnee === dateFinAnnee && dateFinMois - dateDebutMois === 0) {
+			return "1 mois";
 		}
+
+		const diffMois =
+			dateDebutAnnee === dateFinAnnee
+				? dateFinMois - dateDebutMois
+				: 12 - dateDebutMois + dateFinMois;
+
+		const diffAnnees =
+			dateFinAnnee - dateDebutAnnee - (dateFinMois < dateDebutMois ? 1 : 0);
+
+		const moisTxt = `${diffMois} mois`;
+		const anneesTxt = `${diffAnnees} an${diffAnnees !== 1 ? "s" : ""}`;
+
+		return diffAnnees > 0 ? `${moisTxt} et ${anneesTxt}` : moisTxt;
 	}
 
 	function trouverNomMois(numero) {
@@ -72,18 +71,9 @@ const DureeProjet = ({ dates }) => {
 	return (
 		<div className="duree_projet">
 			<span className="duree_projet__date_debut">{debut}</span>
-			<div className="duree_projet__fleche_et_duree">
+			<div className="duree_projet__ligne_et_duree">
 				<span>{trouverDuree(dates)}</span>
-				<svg
-					width="211"
-					height="24"
-					viewBox="0 0 211 24"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-					className="duree_projet__fleche_et_duree__fleche"
-				>
-					<path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5V10.5ZM210.061 13.0607C210.646 12.4749 210.646 11.5251 210.061 10.9393L200.515 1.3934C199.929 0.807611 198.979 0.807611 198.393 1.3934C197.808 1.97919 197.808 2.92893 198.393 3.51472L206.879 12L198.393 20.4853C197.808 21.0711 197.808 22.0208 198.393 22.6066C198.979 23.1924 199.929 23.1924 200.515 22.6066L210.061 13.0607ZM2 13.5H200.89V10.5H2V13.5ZM200.89 13.5H209V10.5H200.89V13.5Z" />
-				</svg>
+				<div className="duree_projet__ligne_et_duree__ligne"></div>
 			</div>
 			<span className="duree_projet__date_fin">{fin}</span>
 		</div>
