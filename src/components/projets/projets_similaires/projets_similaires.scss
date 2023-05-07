@@ -1,0 +1,29 @@
+@import "../../../utils/utils_global";
+
+.projets_similaires {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &__span {
+        font-family: 'Chillax-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 53px;
+        text-transform: uppercase;
+        &--sombre {
+            color: $complementaire;
+        }
+        &--clair {
+            color: $contrastant-fonce;
+        }
+    }
+    &__caroussel {
+        display: flex;
+        gap: 40px;
+        .card {
+            width: 250px;
+            height: 350px;
+        }
+    }
+}

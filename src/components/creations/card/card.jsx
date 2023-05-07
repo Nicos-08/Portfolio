@@ -10,7 +10,6 @@ const Card = ({ theme, projet }) => {
 				display: "flex",
 				alignItems: "center",
 				justifyContent: "center",
-				width: "402px",
 			}}
 		>
 			<div

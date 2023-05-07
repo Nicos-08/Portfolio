@@ -1,12 +1,12 @@
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
-import CadreInfosProjet from "./components/projets/cadre_infos_projet/cadre_infos_projet";
 import creations from "./data/creations";
+import ProjetsSimilaires from "./components/projets/projets_similaires/projets_similaires";
 
 function App() {
 	return (
 		<div className="App">
-			<CadreInfosProjet theme="sombre" projet={creations[1]} />
+			<ProjetsSimilaires theme="clair" projet={creations[1]} />
 		</div>
 	);
 }
