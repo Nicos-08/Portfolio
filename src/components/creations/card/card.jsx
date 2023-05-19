@@ -13,8 +13,8 @@ const Card = ({ theme, projet }) => {
 			}}
 		>
 			<div
-				className={`card card--${projet.imagePricipalePosition}`}
-				style={{ backgroundImage: `url(${projet.imagePricipale})` }}
+				className={`card card--${projet.imagePrincipalePosition}`}
+				style={{ backgroundImage: `url(${projet.imagePrincipale})` }}
 			>
 				<div className="card__bottom">
 					<span className="card__bottom__nom_projet">{projet.nom}</span>
