@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import "../../../styles/components/icons/fleche_gauche/fleche_gauche_icon.css";
 
-const FlecheGaucheIcon = ({ theme }) => {
+const FlecheGaucheIcon = ({ theme, onClick }) => {
 	return (
-		<div className="fleche_gauche_icon">
+		<div className="fleche_gauche_icon" onClick={onClick}>
 			<svg
 				width="48"
 				height="48"

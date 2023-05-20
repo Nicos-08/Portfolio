@@ -1,8 +1,8 @@
 import "../../../styles/components/icons/plein_ecran/plein_ecran_icon.css";
 
-const PleinEcranIcon = () => {
+const PleinEcranIcon = ({ onClick }) => {
 	return (
-		<div className="plein_ecran">
+		<div className="plein_ecran" onClick={onClick}>
 			<svg
 				width="40"
 				height="40"

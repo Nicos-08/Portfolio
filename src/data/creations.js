@@ -157,9 +157,9 @@ const creations = [
 			},
 		},
 		lien: "https://nicos-08.github.io/to-do-list/",
-		imagePrincipale: todo_list_image_principale,
+		imagePrincipale: [{ original: todo_list_image_principale }],
 		imagePrincipalePosition: "left",
-		images: [todo_list_image_1, todo_list_image_2],
+		images: [{ original: todo_list_image_1 }, { original: todo_list_image_2 }],
 	},
 	{
 		nom: "Header site",
