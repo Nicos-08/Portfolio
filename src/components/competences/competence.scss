@@ -1,0 +1,52 @@
+@import "../../utils/utils_global";
+
+.competence {
+    width: 85%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 21px;
+    border-radius: 23px;
+    cursor: pointer;
+    &--clair {
+        background-color: $complementaire;
+    }
+    &--sombre {
+        background-color: $contrastant;
+    }
+    &__partie_visible {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__fleche_bas_icon {
+            margin-right: 16px;
+        } 
+        &__nom {
+            margin-left: 16px;
+            font-family: 'Chillax-Medium';
+            font-size: 40px;
+            text-transform: uppercase;
+            &--sombre {
+                color: $complementaire;
+            }
+            &--clair {
+                color: $contrastant-fonce;
+            }
+        }
+    }
+    &__partie_invisible {
+        &__element {
+            margin-left: 50px;
+            list-style-type: disc;
+            font-family: 'Chillax-Regular';
+            font-size: 25px;
+            &--sombre {
+                color: $complementaire;
+            }
+            &--clair {
+                color: $contrastant-fonce;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.competence {
+  width: 85%;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 21px;
+  border-radius: 23px;
+  cursor: pointer;
+}
+.competence--clair {
+  background-color: #F0F2FE;
+}
+.competence--sombre {
+  background-color: #392D85;
+}
+.competence__partie_visible {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.competence__partie_visible__fleche_bas_icon {
+  margin-right: 16px;
+}
+.competence__partie_visible__nom {
+  margin-left: 16px;
+  font-family: "Chillax-Medium";
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.competence__partie_visible__nom--sombre {
+  color: #F0F2FE;
+}
+.competence__partie_visible__nom--clair {
+  color: #1A0045;
+}
+.competence__partie_invisible__element {
+  margin-left: 50px;
+  list-style-type: disc;
+  font-family: "Chillax-Regular";
+  font-size: 25px;
+}
+.competence__partie_invisible__element--sombre {
+  color: #F0F2FE;
+}
+.competence__partie_invisible__element--clair {
+  color: #1A0045;
+}
+
+/*# sourceMappingURL=competence.css.map */
