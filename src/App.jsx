@@ -1,13 +1,11 @@
 import "./styles/base/fonts.css";
 import "./styles/base/default.css";
-import creations from "./data/creations";
-import Competence from "./components/competences/competence";
-import competences from "./data/competences";
+import ReseauSocial from "./components/contact/reseau_social/reseau_social";
 
 function App() {
 	return (
 		<div className="App">
-			<Competence theme="sombre" competence={competences[6]} />
+			<ReseauSocial theme={"clair"} reseau="instagram" />
 		</div>
 	);
 }

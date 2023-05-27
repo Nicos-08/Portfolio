@@ -1,0 +1,59 @@
+@import "../../../utils/utils_global";
+
+.reseau_social {
+    &__visible {
+        position: absolute;
+        z-index: 2;
+        width: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            top: 52px;
+            z-index: 2;
+            position: relative;
+            cursor: pointer;
+            width: 300px;
+            height: 300px;
+        }
+        &__flou {
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            width: 380px;
+            @include blur-image;
+        }
+    }
+    &__invisible {
+        position: absolute;
+        z-index: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 488px;
+        border-radius: 58px;
+        min-width: 380px;
+        &--sombre {
+            background-color: $contrastant-clair;
+        }
+        &--clair {
+            background-color: $contrastant-fonce;
+        }
+        &__nom {
+            position: absolute;
+            bottom: 50px;
+            font-family: 'Chillax-Medium';
+            font-size: 150%;
+            max-width: 380px;
+            text-align: center;
+            &--sombre {
+                color: $contrastant-fonce;
+            }
+            &--clair {
+                color: $complementaire;
+            }
+        }
+    }
+}
