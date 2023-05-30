@@ -9,6 +9,11 @@
   gap: 9px;
   border-radius: 14px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .filtre--sombre {
   background-color: #BCC6FF;
@@ -41,6 +46,12 @@
 }
 .filtre__span--clair {
   color: #F0F2FE;
+}
+.filtre--true {
+  background-color: #636572;
+}
+.filtre--true:hover {
+  background-color: #4c4e58;
 }
 
 /*# sourceMappingURL=filtre.css.map */

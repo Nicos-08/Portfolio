@@ -4,6 +4,7 @@
 }
 
 .App {
+  min-height: 100vh;
   height: 100%;
   background-color: #BCC6FF;
   padding-bottom: 80px;

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import "../../../styles/components/general/header_avec_filtres/header_avec_filtres.css";
 import TagsList from "../../creations/tags_list/tags_list";
 
-const HeaderAvecFiltres = ({ type, theme }) => {
+const HeaderAvecFiltres = ({ type, theme, visibles, modifierVisibles }) => {
 	return (
 		<div className="header_avec_filtres">
 			<span
@@ -10,7 +10,11 @@ const HeaderAvecFiltres = ({ type, theme }) => {
 			>
 				{type === "Mes créations" ? "Mes créations" : "Mes compétences"}
 			</span>
-			<TagsList theme={theme} />
+			<TagsList
+				theme={theme}
+				visibles={visibles}
+				modifierVisibles={modifierVisibles}
+			/>
 		</div>
 	);
 };

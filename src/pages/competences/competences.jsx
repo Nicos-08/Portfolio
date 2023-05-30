@@ -1,5 +1,6 @@
 //React
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 //Styles
 import "../../styles/pages/competences/competences.css";
@@ -13,6 +14,11 @@ import Competence from "../../components/competences/competence";
 import competences from "../../data/competences";
 
 const PageCompetences = ({ theme }) => {
+	const [visibles, modifierVisibles] = useState([
+		"Programmation",
+		"Design",
+		"Films",
+	]);
 	return (
 		<div className="competences_page">
 			<MenuDeNavigation
@@ -21,16 +27,24 @@ const PageCompetences = ({ theme }) => {
 				arborescence={["Compétences"]}
 			/>
 			<div className="competences_page__header">
-				<HeaderAvecFiltres theme={theme} type="Mes compétences" />
+				<HeaderAvecFiltres
+					theme={theme}
+					type="Mes compétences"
+					visibles={visibles}
+					modifierVisibles={modifierVisibles}
+				/>
 			</div>
 			<div className="competences_page__container_competences">
-				{competences.map((competence, index) => (
-					<Competence
-						competence={competence}
-						theme={theme}
-						key={`competence-${index}`}
-					/>
-				))}
+				{competences.map(
+					(competence, index) =>
+						visibles.includes(competence.theme) && (
+							<Competence
+								competence={competence}
+								theme={theme}
+								key={`competence-${index}`}
+							/>
+						)
+				)}
 			</div>
 		</div>
 	);

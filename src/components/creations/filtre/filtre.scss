@@ -11,6 +11,11 @@
     gap: 9px;
     border-radius: 14px;
     cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     &--sombre {
         background-color: $contrastant_clair;
         &:hover {
@@ -41,6 +46,12 @@
         }
         &--clair {
             color: $complementaire;
+        }
+    }
+    &--true {
+        background-color: $bouton_desactive;
+        &:hover {
+            background-color: $bouton_desactive_hover;
         }
     }
 }
