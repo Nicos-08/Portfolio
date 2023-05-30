@@ -1,0 +1,12 @@
+.competences_page__header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.competences_page__container_competences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+}
+
+/*# sourceMappingURL=competences.css.map */

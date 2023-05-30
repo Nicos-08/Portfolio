@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import "../../styles/components/composant/composant.css";
+import "../../../styles/components/pages/composant/composant.css";
 
 const Composant = () => {
 	return (
