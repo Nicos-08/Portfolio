@@ -7,7 +7,7 @@ const Competence = ({ theme, competence }) => {
 	const [ouvert, setOuvert] = useState(false);
 	return (
 		<div
-			className={`competence competence--${theme}`}
+			className={`competence competence--${theme} competence--${theme}--${ouvert}`}
 			onClick={() => setOuvert(!ouvert)}
 		>
 			<div className="competence__partie_visible">

@@ -15,9 +15,15 @@
     user-select: none;
     &--clair {
         background-color: $complementaire;
+        &--true {
+            background-color: $contrastant_clair_hover;
+        }
     }
     &--sombre {
         background-color: $contrastant;
+        &--true {
+            background-color: $contrastant_fonce_hover;
+        }
     }
     &__partie_visible {
         height: 100%;

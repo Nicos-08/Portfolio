@@ -15,8 +15,14 @@
 .competence--clair {
   background-color: #F0F2FE;
 }
+.competence--clair--true {
+  background-color: #A6B2FF;
+}
 .competence--sombre {
   background-color: #392D85;
+}
+.competence--sombre--true {
+  background-color: #4E3E7A;
 }
 .competence__partie_visible {
   height: 100%;
