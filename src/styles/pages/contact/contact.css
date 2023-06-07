@@ -1,0 +1,29 @@
+.contact_page {
+  max-height: 100vh;
+}
+.contact_page__contenu {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.contact_page__contenu__titre {
+  margin-top: 50px;
+  font-family: "Chillax-Semibold";
+  font-style: normal;
+  font-size: 87px;
+  text-align: center;
+}
+.contact_page__contenu__titre--sombre {
+  color: #F0F2FE;
+}
+.contact_page__contenu__titre--clair {
+  color: #1A0045;
+}
+.contact_page__contenu__reseaux {
+  display: flex;
+  gap: 30%;
+  justify-content: center;
+  margin-right: 20%;
+}
+
+/*# sourceMappingURL=contact.css.map */

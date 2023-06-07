@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //Pages
 import PageCompetences from "../src/pages/competences/competences";
+import PageContact from "./pages/contact/contact";
 
 //Styles
 import "./styles/base/default.css";
@@ -18,8 +19,13 @@ root.render(
 				<Routes>
 					<Route
 						exact
-						path="/"
+						path="/competence"
 						element={<PageCompetences theme={"clair"} />}
+					></Route>
+					<Route
+						exact
+						path="/"
+						element={<PageContact theme={"clair"} />}
 					></Route>
 				</Routes>
 			</div>

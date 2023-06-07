@@ -1,0 +1,29 @@
+@import "../../utils/utils_global";
+
+.contact_page {
+    max-height: 100vh;
+    &__contenu {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        &__titre {
+            margin-top: 50px;
+            font-family: 'Chillax-Semibold';
+            font-style: normal;
+            font-size: 87px;
+            text-align: center;
+            &--sombre {
+                color: $complementaire;
+            }
+            &--clair {
+                color: $contrastant-fonce;
+            }
+        }
+        &__reseaux {
+            display: flex;
+            gap: 30%;
+            justify-content: center;
+            margin-right: 20%;
+        }
+    }
+}
