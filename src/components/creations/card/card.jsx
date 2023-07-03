@@ -10,12 +10,15 @@ const Card = ({ theme, projet }) => {
 				display: "flex",
 				alignItems: "center",
 				justifyContent: "center",
+				backgroundImage: `url(${projet.imagePrincipale})`,
+				backgroundSize: "cover",
+				backgroundRepeat: "no-repeat",
+				backgroundPosition: projet.imagePrincipalePosition,
+				maxWidth: "70%",
+				borderRadius: "16px",
 			}}
 		>
-			<div
-				className={`card card--${projet.imagePrincipalePosition}`}
-				style={{ backgroundImage: `url(${projet.imagePrincipale})` }}
-			>
+			<div className={`card`}>
 				<div className="card__bottom">
 					<span className="card__bottom__nom_projet">{projet.nom}</span>
 					<div className="card__bottom__etiquette_et_tags">

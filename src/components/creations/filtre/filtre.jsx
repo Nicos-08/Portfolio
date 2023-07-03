@@ -25,7 +25,6 @@ const Filtre = ({ theme, type, onClick }) => {
 	function handleClick() {
 		onClick();
 		setClicke(!clicke);
-		console.log(clicke);
 	}
 
 	return (

@@ -1,0 +1,15 @@
+@import "../../utils/utils_global";
+
+.creations_page {
+    &__header {
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+    &__container_projets {
+        display: grid;
+        grid-row-gap: 7%;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-rows: repeat(auto-fit, auto);
+        justify-items: center;
+    }
+}
