@@ -19,9 +19,21 @@
                 line-height: normal;
                 &--sombre {
                     color: $complementaire;
+                    &:hover {
+                        color: $contrastant_clair_hover;
+                    }
+                    &:active {
+                        color: $contrastant_clair_click;
+                    }
                 }
                 &--clair {
                     color: $contrastant_fonce;
+                    &:hover {
+                        color: $contrastant_fonce_hover;
+                    }
+                    &:active {
+                        color: $contrastant_fonce_click;
+                    }
                 }
             }
             &__nom {
@@ -32,9 +44,21 @@
                 text-transform: uppercase;
                 &--sombre {
                     color: $complementaire;
+                    &:hover {
+                        color: $contrastant_clair_hover;
+                    }
+                    &:active {
+                        color: $contrastant_clair_click;
+                    }
                 }
                 &--clair {
                     color: $contrastant_fonce;
+                    &:hover {
+                        color: $contrastant_fonce_hover;
+                    }
+                    &:active {
+                        color: $contrastant_fonce_click;
+                    }
                 }
             }
         }

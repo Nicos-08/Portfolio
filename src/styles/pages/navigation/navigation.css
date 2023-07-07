@@ -19,8 +19,20 @@
 .page_navigation__container_liens__item__numero--sombre {
   color: #F0F2FE;
 }
+.page_navigation__container_liens__item__numero--sombre:hover {
+  color: #A6B2FF;
+}
+.page_navigation__container_liens__item__numero--sombre:active {
+  color: #6073E5;
+}
 .page_navigation__container_liens__item__numero--clair {
   color: #1A0045;
+}
+.page_navigation__container_liens__item__numero--clair:hover {
+  color: #4E3E7A;
+}
+.page_navigation__container_liens__item__numero--clair:active {
+  color: #7F64C9;
 }
 .page_navigation__container_liens__item__nom {
   font-family: "liquide";
@@ -32,8 +44,20 @@
 .page_navigation__container_liens__item__nom--sombre {
   color: #F0F2FE;
 }
+.page_navigation__container_liens__item__nom--sombre:hover {
+  color: #A6B2FF;
+}
+.page_navigation__container_liens__item__nom--sombre:active {
+  color: #6073E5;
+}
 .page_navigation__container_liens__item__nom--clair {
   color: #1A0045;
+}
+.page_navigation__container_liens__item__nom--clair:hover {
+  color: #4E3E7A;
+}
+.page_navigation__container_liens__item__nom--clair:active {
+  color: #7F64C9;
 }
 
 /*# sourceMappingURL=navigation.css.map */

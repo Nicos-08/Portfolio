@@ -46,7 +46,7 @@ root.render(
 					<Route
 						exact
 						path="/navigation"
-						element={<PageNavigation theme={"sombre"} />}
+						element={<PageNavigation theme={"clair"} />}
 					></Route>
 				</Routes>
 			</div>
