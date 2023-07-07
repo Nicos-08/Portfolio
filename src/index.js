@@ -15,6 +15,7 @@ import PageProjet from "./pages/projet/projet";
 
 //Data
 import creations from "./data/creations";
+import PageNavigation from "./pages/navigation/navigation";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,22 +26,27 @@ root.render(
 					<Route
 						exact
 						path="/competences"
-						element={<PageCompetences theme={"clair"} />}
+						element={<PageCompetences theme={"sombre"} />}
 					></Route>
 					<Route
 						exact
 						path="/contact"
-						element={<PageContact theme={"clair"} />}
+						element={<PageContact theme={"sombre"} />}
 					></Route>
 					<Route
 						exact
 						path="/creations"
-						element={<PageCreations theme={"clair"} />}
+						element={<PageCreations theme={"sombre"} />}
 					></Route>
 					<Route
 						exact
 						path="/projet"
 						element={<PageProjet theme={"sombre"} projet={creations[3]} />}
+					></Route>
+					<Route
+						exact
+						path="/navigation"
+						element={<PageNavigation theme={"sombre"} />}
 					></Route>
 				</Routes>
 			</div>
