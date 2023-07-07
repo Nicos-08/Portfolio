@@ -11,6 +11,10 @@ import PageCreations from "./pages/creations/creations";
 //Styles
 import "./styles/base/default.css";
 import "./styles/base/fonts.css";
+import PageProjet from "./pages/projet/projet";
+
+//Data
+import creations from "./data/creations";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,6 +36,11 @@ root.render(
 						exact
 						path="/creations"
 						element={<PageCreations theme={"clair"} />}
+					></Route>
+					<Route
+						exact
+						path="/projet"
+						element={<PageProjet theme={"sombre"} projet={creations[3]} />}
 					></Route>
 				</Routes>
 			</div>

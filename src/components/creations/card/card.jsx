@@ -10,7 +10,7 @@ const Card = ({ theme, projet }) => {
 				display: "flex",
 				alignItems: "center",
 				justifyContent: "center",
-				backgroundImage: `url(${projet.imagePrincipale})`,
+				backgroundImage: `url(${projet.imagePrincipale[0].original})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
 				backgroundPosition: projet.imagePrincipalePosition,

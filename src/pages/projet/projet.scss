@@ -1,0 +1,51 @@
+@import "../../utils/utils_global";
+
+.projet_page {
+    &__visualisateur {
+        margin-bottom: 60px;
+    }
+    &__contenu {
+        display: flex;
+        &__section_gauche {
+            margin-left: 130px;
+            margin-right: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 50px;
+            &__section_texte {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 30px;
+                &__titre {
+                    font-family: 'liquide';
+                    font-size: 50px;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    &--sombre {
+                        color: $complementaire;
+                    }
+                    &--clair {
+                        color: $contrastant-fonce;
+                    }
+                }
+                &__description {
+                    font-family: 'Chillax-Regular';
+                    font-size: 22px;
+                    line-height: 30px;
+                    &--sombre {
+                        color: $complementaire;
+                    }
+                    &--clair {
+                        color: $contrastant-fonce;
+                    }
+                }
+            }
+        }
+    }
+    &__footer {
+        margin-top: 120px;
+        padding-left: 130px;
+    }
+}

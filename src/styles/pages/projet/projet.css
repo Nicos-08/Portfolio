@@ -1,0 +1,49 @@
+.projet_page__visualisateur {
+  margin-bottom: 60px;
+}
+.projet_page__contenu {
+  display: flex;
+}
+.projet_page__contenu__section_gauche {
+  margin-left: 130px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+}
+.projet_page__contenu__section_gauche__section_texte {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.projet_page__contenu__section_gauche__section_texte__titre {
+  font-family: "liquide";
+  font-size: 50px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.projet_page__contenu__section_gauche__section_texte__titre--sombre {
+  color: #F0F2FE;
+}
+.projet_page__contenu__section_gauche__section_texte__titre--clair {
+  color: #1A0045;
+}
+.projet_page__contenu__section_gauche__section_texte__description {
+  font-family: "Chillax-Regular";
+  font-size: 22px;
+  line-height: 30px;
+}
+.projet_page__contenu__section_gauche__section_texte__description--sombre {
+  color: #F0F2FE;
+}
+.projet_page__contenu__section_gauche__section_texte__description--clair {
+  color: #1A0045;
+}
+.projet_page__footer {
+  margin-top: 120px;
+  padding-left: 130px;
+}
+
+/*# sourceMappingURL=projet.css.map */

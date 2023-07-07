@@ -10,9 +10,11 @@ const Visualisateur = ({ projet }) => {
 	const [images, setImages] = useState([]);
 
 	useEffect(() => {
+		let imagePrincipale = [{ original: projet.imagePrincipale }];
+
 		const updatedImages = [...projet.imagePrincipale];
 
-		for (const image of projet.images) {
+		for (let image of projet.images) {
 			updatedImages.push(image);
 		}
 
