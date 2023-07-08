@@ -1,0 +1,21 @@
+.texte_changeant span {
+  font-family: "liquide";
+  font-size: 40px;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.texte_changeant--sombre {
+  color: #F0F2FE;
+}
+.texte_changeant--clair {
+  color: #1A0045;
+}
+
+.typed-cursor {
+  font-family: "liquide";
+  font-size: 40px;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+/*# sourceMappingURL=texte_changeant.css.map */

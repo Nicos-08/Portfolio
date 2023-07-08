@@ -1,0 +1,23 @@
+@import "../../../utils/utils_global";
+
+.texte_changeant {
+    span {
+        font-family: 'liquide';
+        font-size: 40px;
+        line-height: normal;
+        letter-spacing: 1.2px;
+    }
+    &--sombre {
+        color: $complementaire;
+    }
+    &--clair {
+        color: $contrastant-fonce;
+    }
+}
+
+.typed-cursor {
+    font-family: 'liquide';
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}

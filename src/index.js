@@ -16,6 +16,7 @@ import PageProjet from "./pages/projet/projet";
 //Data
 import creations from "./data/creations";
 import PageNavigation from "./pages/navigation/navigation";
+import PageAccueil from "./pages/accueil/accueil";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -47,6 +48,11 @@ root.render(
 						exact
 						path="/navigation"
 						element={<PageNavigation theme={"clair"} />}
+					></Route>
+					<Route
+						exact
+						path="/"
+						element={<PageAccueil theme={"sombre"} />}
 					></Route>
 				</Routes>
 			</div>
