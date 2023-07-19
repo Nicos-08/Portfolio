@@ -6,8 +6,10 @@
 .App {
   min-height: 100vh;
   height: 100%;
-  background-color: #1A0045;
+  background-color: #BCC6FF;
   padding-bottom: 80px;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=default.css.map */

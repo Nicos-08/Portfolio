@@ -1,0 +1,53 @@
+@import "../../utils/utils_global";
+
+.page_accueil {
+    &--sombre {
+       color: $complementaire; 
+    }
+    &--clair {
+        color: $contrastant-fonce;
+    }
+    &__contenu {
+        position: relative;
+        &__logo {
+            transform: translateY(45%) translateX(17%);
+            &__logo_original {
+                position: relative;
+                top: 0;
+                z-index: 2;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 415px;
+                height: 415px;
+            }
+            &__logo_flou {
+                top: 0;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                @include blur-image;
+            }
+        }
+        &__textes {
+            transform: translateY(-70%) translateX(42%);
+            &__nom {
+                font-family: "Chillax-Semibold";
+                font-size: 70px;
+                line-height: normal;
+                margin-left: 5px;
+            }
+        }
+    }
+    &__cta {
+        position: relative;
+        top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}

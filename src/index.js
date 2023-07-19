@@ -52,7 +52,7 @@ root.render(
 					<Route
 						exact
 						path="/"
-						element={<PageAccueil theme={"sombre"} />}
+						element={<PageAccueil theme={"clair"} />}
 					></Route>
 				</Routes>
 			</div>
