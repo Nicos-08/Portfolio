@@ -1,5 +1,6 @@
 //React
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 //Styles
 import "../../styles/pages/accueil/accueil.css";
@@ -31,7 +32,9 @@ const PageAccueil = ({ theme }) => {
 				</div>
 			</div>
 			<div className="page_accueil__cta">
-				<Button texte="Voir mes créations" />
+				<Link to="/creations">
+					<Button texte="Voir mes créations" />
+				</Link>
 			</div>
 		</div>
 	);

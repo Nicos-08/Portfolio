@@ -1,5 +1,6 @@
 //React
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 //Styles
 import "../../styles/pages/navigation/navigation.css";
@@ -13,52 +14,60 @@ const PageNavigation = ({ theme }) => {
 			<MenuDeNavigation theme={theme} arborescence={["Menu de navigation"]} />
 			<div className="page_navigation__container_liens">
 				<div className={`page_navigation__container_liens__item`}>
-					<span
-						className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
-					>
-						01
-					</span>
-					<span
-						className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
-					>
-						Accueil
-					</span>
+					<Link to="/">
+						<span
+							className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
+						>
+							01
+						</span>
+						<span
+							className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
+						>
+							Accueil
+						</span>
+					</Link>
 				</div>
 				<div className={`page_navigation__container_liens__item`}>
-					<span
-						className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
-					>
-						02
-					</span>
-					<span
-						className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
-					>
-						Creations
-					</span>
+					<Link to="/creations">
+						<span
+							className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
+						>
+							02
+						</span>
+						<span
+							className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
+						>
+							Creations
+						</span>
+					</Link>
 				</div>
 				<div className={`page_navigation__container_liens__item`}>
-					<span
-						className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
-					>
-						03
-					</span>
-					<span
-						className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
-					>
-						Competences
-					</span>
+					<Link to="/competences">
+						<span
+							className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
+						>
+							03
+						</span>
+						<span
+							className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
+						>
+							Competences
+						</span>
+					</Link>
 				</div>
 				<div className={`page_navigation__container_liens__item`}>
-					<span
-						className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
-					>
-						04
-					</span>
-					<span
-						className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
-					>
-						Contact
-					</span>
+					<Link to="/contact">
+						<span
+							className={`page_navigation__container_liens__item__numero page_navigation__container_liens__item__numero--${theme}`}
+						>
+							04
+						</span>
+						<span
+							className={`page_navigation__container_liens__item__nom page_navigation__container_liens__item__nom--${theme}`}
+						>
+							Contact
+						</span>
+					</Link>
 				</div>
 			</div>
 		</div>
