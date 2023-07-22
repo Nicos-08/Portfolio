@@ -12,7 +12,6 @@ import "./styles/base/fonts.css";
 import PageProjet from "./pages/projet/projet";
 
 //Data
-import creations from "./data/creations";
 import PageNavigation from "./pages/navigation/navigation";
 import PageAccueil from "./pages/accueil/accueil";
 import { useState } from "react";
@@ -40,14 +39,8 @@ const Layout = () => {
 					></Route>
 					<Route
 						exact
-						path="/projet"
-						element={
-							<PageProjet
-								theme={theme}
-								projet={creations[3]}
-								setTheme={setTheme}
-							/>
-						}
+						path="/projet/:id"
+						element={<PageProjet theme={theme} setTheme={setTheme} />}
 					></Route>
 					<Route
 						exact

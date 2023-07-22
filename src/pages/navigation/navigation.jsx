@@ -1,6 +1,7 @@
 //React
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 //Styles
 import "../../styles/pages/navigation/navigation.css";
@@ -9,6 +10,9 @@ import "../../styles/pages/navigation/navigation.css";
 import MenuDeNavigation from "../../components/navigation/menu_de_navigation/menu_de_navigation";
 
 const PageNavigation = ({ theme, setTheme }) => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<div className="page_navigation">
 			<MenuDeNavigation

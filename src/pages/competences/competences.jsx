@@ -1,4 +1,5 @@
 //React
+import { useEffect } from "react";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
@@ -14,7 +15,9 @@ import Competence from "../../components/competences/competence";
 import competences from "../../data/competences";
 
 const PageCompetences = ({ theme, setTheme }) => {
-	// console.log(setTheme);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	const [visibles, modifierVisibles] = useState([
 		"Programmation",
 		"Design",

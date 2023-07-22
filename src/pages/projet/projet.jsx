@@ -1,5 +1,7 @@
 //React
 import PropTypes from "prop-types";
+import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
 
 //Styles
 import "../../styles/pages/projet/projet.css";
@@ -11,7 +13,17 @@ import Button from "../../components/general/button/button";
 import CadreInfosProjet from "../../components/projets/cadre_infos_projet/cadre_infos_projet";
 import ProjetsSimilaires from "../../components/projets/projets_similaires/projets_similaires";
 
-const PageProjet = ({ projet, theme, setTheme }) => {
+//Data
+import creations from "../../data/creations";
+
+const PageProjet = ({ theme, setTheme }) => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	const { id } = useParams();
+	const projet = creations[id];
+
 	return (
 		<div className="projet_page">
 			<MenuDeNavigation
@@ -37,7 +49,9 @@ const PageProjet = ({ projet, theme, setTheme }) => {
 							{projet.description}
 						</p>
 					</div>
-					<Button texte="Retour aux projets" />
+					<Link to={"/creations"}>
+						<Button texte="Retour aux projets" />
+					</Link>
 				</div>
 				<div className="projet_page__contenu__section_droite">
 					<CadreInfosProjet projet={projet} theme={theme} />
@@ -51,7 +65,6 @@ const PageProjet = ({ projet, theme, setTheme }) => {
 };
 
 PageProjet.propTypes = {
-	projet: PropTypes.object.isRequired,
 	theme: PropTypes.string.isRequired,
 	setTheme: PropTypes.func.isRequired,
 };

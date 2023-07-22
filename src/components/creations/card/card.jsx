@@ -14,7 +14,7 @@ const Card = ({ theme, projet }) => {
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
 				backgroundPosition: projet.imagePrincipalePosition,
-				maxWidth: "70%",
+				maxWidth: "100%",
 				borderRadius: "16px",
 			}}
 		>

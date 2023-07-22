@@ -1,4 +1,5 @@
 //React
+import { useEffect } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
@@ -12,6 +13,9 @@ import Button from "../../components/general/button/button";
 import TexteChangeant from "../../components/general/texte_changeant/texte_changeant";
 
 const PageAccueil = ({ theme, setTheme }) => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<div className={`page_accueil page_accueil--${theme}`}>
 			<MenuDeNavigation theme={theme} arborescence={[]} setTheme={setTheme} />

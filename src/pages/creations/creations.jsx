@@ -1,6 +1,7 @@
 //React
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 //Styles
 import "../../styles/pages/creations/creations.css";
@@ -14,6 +15,9 @@ import Card from "../../components/creations/card/card";
 import creations from "../../data/creations";
 
 const PageCreations = ({ theme, setTheme }) => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	const [visibles, modifierVisibles] = useState([
 		"Programmation",
 		"Design",
@@ -38,7 +42,9 @@ const PageCreations = ({ theme, setTheme }) => {
 				{creations.map(
 					(projet, index) =>
 						visibles.includes(projet.theme) && (
-							<Card projet={projet} theme={theme} key={`${projet}-${index}`} />
+							<Link to={`/projet/${index}`} key={`${projet}-${index}`}>
+								<Card projet={projet} theme={theme} />
+							</Link>
 						)
 				)}
 			</div>
