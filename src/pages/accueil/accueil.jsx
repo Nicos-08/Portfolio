@@ -11,10 +11,10 @@ import LogoIcon from "../../components/icons/logo/logo_icon";
 import Button from "../../components/general/button/button";
 import TexteChangeant from "../../components/general/texte_changeant/texte_changeant";
 
-const PageAccueil = ({ theme }) => {
+const PageAccueil = ({ theme, setTheme }) => {
 	return (
 		<div className={`page_accueil page_accueil--${theme}`}>
-			<MenuDeNavigation theme={theme} arborescence={[]} />
+			<MenuDeNavigation theme={theme} arborescence={[]} setTheme={setTheme} />
 			<div className="page_accueil__contenu">
 				<div className="page_accueil__contenu__logo">
 					<div className="page_accueil__contenu__logo__logo_original">
@@ -42,6 +42,7 @@ const PageAccueil = ({ theme }) => {
 
 PageAccueil.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageAccueil.defaultProps = {};

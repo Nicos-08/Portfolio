@@ -15,43 +15,53 @@ import PageProjet from "./pages/projet/projet";
 import creations from "./data/creations";
 import PageNavigation from "./pages/navigation/navigation";
 import PageAccueil from "./pages/accueil/accueil";
+import { useState } from "react";
 
 const Layout = () => {
+	const [theme, setTheme] = useState("sombre");
 	return (
-		<Router>
-			<Routes>
-				<Route
-					exact
-					path="/competences"
-					element={<PageCompetences theme={"sombre"} />}
-				></Route>
-				<Route
-					exact
-					path="/contact"
-					element={<PageContact theme={"sombre"} />}
-				></Route>
-				<Route
-					exact
-					path="/creations"
-					element={<PageCreations theme={"sombre"} />}
-				></Route>
-				<Route
-					exact
-					path="/projet"
-					element={<PageProjet theme={"sombre"} projet={creations[3]} />}
-				></Route>
-				<Route
-					exact
-					path="/navigation"
-					element={<PageNavigation theme={"sombre"} />}
-				></Route>
-				<Route
-					exact
-					path="/"
-					element={<PageAccueil theme={"sombre"} />}
-				></Route>
-			</Routes>
-		</Router>
+		<div className={`App App--${theme}`}>
+			<Router>
+				<Routes>
+					<Route
+						exact
+						path="/competences"
+						element={<PageCompetences theme={theme} setTheme={setTheme} />}
+					></Route>
+					<Route
+						exact
+						path="/contact"
+						element={<PageContact theme={theme} setTheme={setTheme} />}
+					></Route>
+					<Route
+						exact
+						path="/creations"
+						element={<PageCreations theme={theme} setTheme={setTheme} />}
+					></Route>
+					<Route
+						exact
+						path="/projet"
+						element={
+							<PageProjet
+								theme={theme}
+								projet={creations[3]}
+								setTheme={setTheme}
+							/>
+						}
+					></Route>
+					<Route
+						exact
+						path="/navigation"
+						element={<PageNavigation theme={theme} setTheme={setTheme} />}
+					></Route>
+					<Route
+						exact
+						path="/"
+						element={<PageAccueil theme={theme} setTheme={setTheme} />}
+					></Route>
+				</Routes>
+			</Router>
+		</div>
 	);
 };
 

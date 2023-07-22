@@ -1,9 +1,16 @@
 import PropTypes from "prop-types";
 import "../../../styles/components/icons/theme/theme_icon.css";
 
-const ThemeIcon = ({ theme }) => {
+const ThemeIcon = ({ theme, setTheme }) => {
+	function changeTheme() {
+		if (theme === "sombre") {
+			setTheme("clair");
+		} else if (theme === "clair") {
+			setTheme("sombre");
+		}
+	}
 	return (
-		<div className="theme_icon">
+		<div className="theme_icon" onClick={changeTheme}>
 			{theme === "sombre" ? (
 				<svg
 					width="39"
@@ -89,6 +96,7 @@ const ThemeIcon = ({ theme }) => {
 
 ThemeIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 ThemeIcon.defaultProps = {};

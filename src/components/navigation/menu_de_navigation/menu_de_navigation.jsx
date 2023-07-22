@@ -6,7 +6,8 @@ import ThemeIcon from "../../icons/theme/theme_icon";
 import MenuHamburgerIcon from "../../icons/menu_hamburger/menu_hamburger_icon";
 import CroixIcon from "../../icons/croix/croix_icon";
 
-const MenuDeNavigation = ({ theme, menu_ouvert, arborescence }) => {
+const MenuDeNavigation = ({ theme, menu_ouvert, arborescence, setTheme }) => {
+	// console.log(setTheme);
 	return (
 		<div className="menu_de_navigation">
 			<div className="menu_de_navigation__partie_gauche">
@@ -26,7 +27,7 @@ const MenuDeNavigation = ({ theme, menu_ouvert, arborescence }) => {
 				</div>
 			</div>
 			<div className="menu_de_navigation__partie_droite">
-				<ThemeIcon theme={theme} />
+				<ThemeIcon theme={theme} setTheme={setTheme} />
 				{menu_ouvert ? (
 					<CroixIcon theme={theme} />
 				) : (
@@ -43,6 +44,7 @@ MenuDeNavigation.propTypes = {
 	theme: PropTypes.string.isRequired,
 	menu_ouvert: PropTypes.bool,
 	arborescence: PropTypes.array.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 MenuDeNavigation.defaultProps = {

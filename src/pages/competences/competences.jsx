@@ -13,7 +13,8 @@ import Competence from "../../components/competences/competence";
 //Data
 import competences from "../../data/competences";
 
-const PageCompetences = ({ theme }) => {
+const PageCompetences = ({ theme, setTheme }) => {
+	// console.log(setTheme);
 	const [visibles, modifierVisibles] = useState([
 		"Programmation",
 		"Design",
@@ -25,6 +26,7 @@ const PageCompetences = ({ theme }) => {
 				theme={theme}
 				menu_ouvert={false}
 				arborescence={["Compétences"]}
+				setTheme={setTheme}
 			/>
 			<div className="competences_page__header">
 				<HeaderAvecFiltres
@@ -52,6 +54,7 @@ const PageCompetences = ({ theme }) => {
 
 PageCompetences.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageCompetences.defaultProps = {};

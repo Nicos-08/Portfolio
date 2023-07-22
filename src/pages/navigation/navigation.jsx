@@ -8,10 +8,14 @@ import "../../styles/pages/navigation/navigation.css";
 //Composants
 import MenuDeNavigation from "../../components/navigation/menu_de_navigation/menu_de_navigation";
 
-const PageNavigation = ({ theme }) => {
+const PageNavigation = ({ theme, setTheme }) => {
 	return (
 		<div className="page_navigation">
-			<MenuDeNavigation theme={theme} arborescence={["Menu de navigation"]} />
+			<MenuDeNavigation
+				theme={theme}
+				arborescence={["Menu de navigation"]}
+				setTheme={setTheme}
+			/>
 			<div className="page_navigation__container_liens">
 				<div className={`page_navigation__container_liens__item`}>
 					<Link to="/">
@@ -76,6 +80,7 @@ const PageNavigation = ({ theme }) => {
 
 PageNavigation.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageNavigation.defaultProps = {};

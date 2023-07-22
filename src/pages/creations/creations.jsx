@@ -13,7 +13,7 @@ import Card from "../../components/creations/card/card";
 //Data
 import creations from "../../data/creations";
 
-const PageCreations = ({ theme }) => {
+const PageCreations = ({ theme, setTheme }) => {
 	const [visibles, modifierVisibles] = useState([
 		"Programmation",
 		"Design",
@@ -21,7 +21,11 @@ const PageCreations = ({ theme }) => {
 	]);
 	return (
 		<div className="creations_page">
-			<MenuDeNavigation theme={theme} arborescence={["Créations"]} />
+			<MenuDeNavigation
+				theme={theme}
+				arborescence={["Créations"]}
+				setTheme={setTheme}
+			/>
 			<div className="creations_page__header">
 				<HeaderAvecFiltres
 					type="Mes créations"
@@ -44,6 +48,7 @@ const PageCreations = ({ theme }) => {
 
 PageCreations.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageCreations.defaultProps = {};

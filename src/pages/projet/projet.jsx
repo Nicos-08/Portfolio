@@ -11,13 +11,14 @@ import Button from "../../components/general/button/button";
 import CadreInfosProjet from "../../components/projets/cadre_infos_projet/cadre_infos_projet";
 import ProjetsSimilaires from "../../components/projets/projets_similaires/projets_similaires";
 
-const PageProjet = ({ projet, theme }) => {
+const PageProjet = ({ projet, theme, setTheme }) => {
 	return (
 		<div className="projet_page">
 			<MenuDeNavigation
 				theme={theme}
 				menu_ouvert={false}
 				arborescence={["Projet", projet.nom]}
+				setTheme={setTheme}
 			/>
 			<div className="projet_page__visualisateur">
 				<Visualisateur projet={projet} />
@@ -52,6 +53,7 @@ const PageProjet = ({ projet, theme }) => {
 PageProjet.propTypes = {
 	projet: PropTypes.object.isRequired,
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageProjet.defaultProps = {};

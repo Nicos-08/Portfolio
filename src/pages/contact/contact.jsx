@@ -10,10 +10,10 @@ import MenuDeNavigation from "../../components/navigation/menu_de_navigation/men
 
 //Data
 
-const PageContact = ({ theme }) => {
+const PageContact = ({ theme, setTheme }) => {
 	return (
 		<div className={`contact_page contact_page--${theme}`}>
-			<MenuDeNavigation theme={theme} arborescence={["Contact"]} />
+			<MenuDeNavigation theme={theme} arborescence={["Contact"]} setTheme={setTheme} />
 			<div className="contact_page__contenu">
 				<span
 					className={`contact_page__contenu__titre contact_page__contenu__titre--${theme}`}
@@ -32,6 +32,7 @@ const PageContact = ({ theme }) => {
 
 PageContact.propTypes = {
 	theme: PropTypes.string.isRequired,
+	setTheme: PropTypes.func.isRequired,
 };
 
 PageContact.defaultProps = {};
