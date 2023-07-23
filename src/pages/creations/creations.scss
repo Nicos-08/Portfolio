@@ -1,15 +1,16 @@
 @import "../../utils/utils_global";
 
 .creations_page {
+    padding-bottom: 100px;
+    height: 100%;
     &__header {
         margin-top: 30px;
         margin-bottom: 90px;
     }
     &__container_projets {
         display: grid;
-        grid-row-gap: 7%;
+        row-gap: 80px;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-        grid-template-rows: repeat(auto-fit, auto);
         justify-items: center;
     }
 }
