@@ -8,7 +8,7 @@
   height: 100%;
   padding-bottom: 80px;
   max-width: 100vw;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .App--sombre {
   background-color: #1A0045;

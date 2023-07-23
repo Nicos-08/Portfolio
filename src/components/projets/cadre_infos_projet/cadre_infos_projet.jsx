@@ -3,6 +3,7 @@ import "../../../styles/components/projets/cadre_infos_projet/cadre_infos_projet
 import TagProjet from "../tag_projet/tag_projet";
 import Button from "../../general/button/button";
 import DureeProjet from "../duree_projet/duree_projet";
+import { Link } from "react-router-dom";
 
 const CadreInfosProjet = ({ theme, projet }) => {
 	return (
@@ -14,7 +15,9 @@ const CadreInfosProjet = ({ theme, projet }) => {
 				))}
 			</div>
 			<DureeProjet dates={projet.dates} />
-			<Button texte="Accéder" />
+			<Link to={projet.lien} target="_blank" rel="noopener noreferrer">
+				<Button texte="Accéder" />
+			</Link>
 		</div>
 	);
 };
