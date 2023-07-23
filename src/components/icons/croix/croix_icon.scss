@@ -2,5 +2,6 @@
 
 
 .croix_icon {
-    @include icon_cliquable_style(true)
+    @include icon_cliquable_style(true);
+    transform: rotate(45deg);
 }

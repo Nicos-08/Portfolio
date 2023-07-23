@@ -1,3 +1,6 @@
+.croix_icon {
+  transform: rotate(45deg);
+}
 .croix_icon svg {
   cursor: pointer;
 }

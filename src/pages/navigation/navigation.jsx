@@ -19,6 +19,7 @@ const PageNavigation = ({ theme, setTheme }) => {
 				theme={theme}
 				arborescence={["Menu de navigation"]}
 				setTheme={setTheme}
+				menu_ouvert={true}
 			/>
 			<div className="page_navigation__container_liens">
 				<div className={`page_navigation__container_liens__item`}>

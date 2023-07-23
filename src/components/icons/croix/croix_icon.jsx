@@ -5,29 +5,29 @@ const CroixIcon = ({ theme }) => {
 	return (
 		<div className="croix_icon">
 			<svg
-				width="78"
-				height="78"
-				viewBox="0 0 78 78"
+				width="43"
+				height="43"
+				viewBox="0 0 43 43"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<rect
 					className={`croix_icon--${theme}`}
-					x="54.0242"
-					y="15.4352"
-					width="10.9146"
-					height="54.5729"
-					rx="5.45729"
-					transform="rotate(45 54.0242 15.4352)"
+					x="17.1997"
+					y="-0.00012207"
+					width="8.60001"
+					height="43"
+					rx="4.3"
+					fill="#BCC6FF"
 				/>
 				<rect
 					className={`croix_icon--${theme}`}
-					x="15.4358"
-					y="23.1531"
-					width="10.9146"
-					height="54.5729"
-					rx="5.45729"
-					transform="rotate(-45 15.4358 23.1531)"
+					y="25.7997"
+					width="8.6"
+					height="43"
+					rx="4.3"
+					transform="rotate(-90 0 25.7997)"
+					fill="#BCC6FF"
 				/>
 			</svg>
 		</div>

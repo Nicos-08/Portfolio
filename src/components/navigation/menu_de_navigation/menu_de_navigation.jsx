@@ -7,7 +7,6 @@ import MenuHamburgerIcon from "../../icons/menu_hamburger/menu_hamburger_icon";
 import CroixIcon from "../../icons/croix/croix_icon";
 
 const MenuDeNavigation = ({ theme, menu_ouvert, arborescence, setTheme }) => {
-	// console.log(setTheme);
 	return (
 		<div className="menu_de_navigation">
 			<div className="menu_de_navigation__partie_gauche">
@@ -29,7 +28,9 @@ const MenuDeNavigation = ({ theme, menu_ouvert, arborescence, setTheme }) => {
 			<div className="menu_de_navigation__partie_droite">
 				<ThemeIcon theme={theme} setTheme={setTheme} />
 				{menu_ouvert ? (
-					<CroixIcon theme={theme} />
+					<Link to="..">
+						<CroixIcon theme={theme} />
+					</Link>
 				) : (
 					<Link to="/navigation">
 						<MenuHamburgerIcon theme={theme} />
