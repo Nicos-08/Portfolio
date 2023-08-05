@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../pages/competences/competences.scss"],"names":[],"mappings":"AAEA;EACI;;AACA;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA","file":"competences.css"}
+{"version":3,"sourceRoot":"","sources":["../../../pages/competences/competences.scss","../../../utils/_animations.scss"],"names":[],"mappings":"AAEA;ECDI;EDGA;;AACA;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;;;ACRJ;EACI;IACI;;EAEJ;IACI","file":"competences.css"}

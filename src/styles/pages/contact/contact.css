@@ -1,3 +1,6 @@
+.contact_page {
+  animation: arrivee 0.5s ease-in-out forwards;
+}
 .contact_page__contenu {
   display: flex;
   flex-direction: column;
@@ -21,6 +24,15 @@
   gap: 30%;
   justify-content: center;
   margin-right: 20%;
+}
+
+@keyframes arrivee {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */

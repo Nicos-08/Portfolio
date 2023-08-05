@@ -1,7 +1,7 @@
 @import "../../utils/utils_global";
 
 .page_navigation {
-
+    @include arrivee_page;
     &__container_liens {
         display: flex;
         justify-content: center;
@@ -64,3 +64,5 @@
         }
     }
 }
+
+@include arrivee_page_keyframe;

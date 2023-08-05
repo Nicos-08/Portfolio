@@ -1,6 +1,7 @@
 @import "../../utils/utils_global";
 
 .competences_page {
+    @include arrivee_page;
     padding-bottom: 100px;
     &__header {
         margin-top: 50px;
@@ -13,3 +14,5 @@
         gap: 44px;
     }
 }
+
+@include arrivee_page_keyframe;

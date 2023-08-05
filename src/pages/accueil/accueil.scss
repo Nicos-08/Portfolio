@@ -3,6 +3,8 @@
 .page_accueil {
     height: 100vh;
     overflow: hidden;
+    opacity: 0;
+    @include arrivee_page;
     &--sombre {
        color: $complementaire; 
     }
@@ -51,5 +53,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
     } 
 }
+
+@include arrivee_page_keyframe;

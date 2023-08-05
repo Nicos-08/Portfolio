@@ -1,5 +1,6 @@
 .projet_page {
   padding-bottom: 100px;
+  animation: arrivee 0.5s ease-in-out forwards;
 }
 .projet_page__visualisateur {
   margin-bottom: 60px;
@@ -47,6 +48,15 @@
 .projet_page__footer {
   margin-top: 120px;
   padding-left: 130px;
+}
+
+@keyframes arrivee {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=projet.css.map */

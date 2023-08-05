@@ -1,6 +1,7 @@
 .creations_page {
   padding-bottom: 100px;
   height: 100%;
+  animation: arrivee 0.5s ease-in-out forwards;
 }
 .creations_page__header {
   margin-top: 30px;
@@ -11,6 +12,15 @@
   row-gap: 80px;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   justify-items: center;
+}
+
+@keyframes arrivee {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=creations.css.map */

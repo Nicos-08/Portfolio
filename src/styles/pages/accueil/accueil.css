@@ -1,6 +1,8 @@
 .page_accueil {
   height: 100vh;
   overflow: hidden;
+  opacity: 0;
+  animation: arrivee 0.5s ease-in-out forwards;
 }
 .page_accueil--sombre {
   color: #F0F2FE;
@@ -48,6 +50,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes arrivee {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=accueil.css.map */

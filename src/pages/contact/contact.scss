@@ -1,6 +1,7 @@
 @import "../../utils/utils_global";
 
 .contact_page {
+    @include arrivee_page;
     &__contenu {
         display: flex;
         flex-direction: column;
@@ -26,3 +27,5 @@
         }
     }
 }
+
+@include arrivee_page_keyframe;
