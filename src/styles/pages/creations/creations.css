@@ -1,13 +1,14 @@
 .creations_page {
   padding-bottom: 100px;
   height: 100%;
-  animation: arrivee 0.5s ease-in-out forwards;
 }
 .creations_page__header {
+  animation: arrivee 0.5s ease-in-out forwards;
   margin-top: 30px;
   margin-bottom: 90px;
 }
 .creations_page__container_projets {
+  animation: arrivee 0.5s ease-in-out forwards;
   display: grid;
   row-gap: 80px;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));

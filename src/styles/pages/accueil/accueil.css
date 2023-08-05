@@ -1,8 +1,6 @@
 .page_accueil {
   height: 100vh;
   overflow: hidden;
-  opacity: 0;
-  animation: arrivee 0.5s ease-in-out forwards;
 }
 .page_accueil--sombre {
   color: #F0F2FE;
@@ -11,6 +9,7 @@
   color: #1A0045;
 }
 .page_accueil__contenu {
+  animation: arrivee 0.5s ease-in-out forwards;
   position: relative;
 }
 .page_accueil__contenu__logo {
@@ -45,6 +44,7 @@
   margin-left: 5px;
 }
 .page_accueil__cta {
+  animation: arrivee 0.5s ease-in-out forwards;
   position: relative;
   top: 70px;
   display: flex;

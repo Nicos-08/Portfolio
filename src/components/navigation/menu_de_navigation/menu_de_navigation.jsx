@@ -10,7 +10,7 @@ const MenuDeNavigation = ({ theme, menu_ouvert, arborescence, setTheme }) => {
 	return (
 		<div className="menu_de_navigation">
 			<div className="menu_de_navigation__partie_gauche">
-				<Link to="/">
+				<Link to="/" className="menu_de_navigation__partie_gauche__logo">
 					<LogoIcon format="petit" />
 				</Link>
 				<div className="arborescence">

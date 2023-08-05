@@ -3,12 +3,13 @@
 .creations_page {
     padding-bottom: 100px;
     height: 100%;
-    @include arrivee_page;
     &__header {
+        @include arrivee_page;
         margin-top: 30px;
         margin-bottom: 90px;
     }
     &__container_projets {
+        @include arrivee_page;
         display: grid;
         row-gap: 80px;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));

@@ -1,7 +1,5 @@
-.contact_page {
-  animation: arrivee 0.5s ease-in-out forwards;
-}
 .contact_page__contenu {
+  animation: arrivee 0.5s ease-in-out forwards;
   display: flex;
   flex-direction: column;
   gap: 100px;

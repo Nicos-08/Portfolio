@@ -17,6 +17,12 @@
         &--clair {
             color: $contrastant-fonce;
         }
+        &__logo {
+            transition: transform 0.2s ease-in-out;
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
         span {
             font-family: 'Chillax-Medium';
             font-style: normal;

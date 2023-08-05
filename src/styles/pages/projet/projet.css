@@ -1,11 +1,12 @@
 .projet_page {
   padding-bottom: 100px;
-  animation: arrivee 0.5s ease-in-out forwards;
 }
 .projet_page__visualisateur {
+  animation: arrivee 0.5s ease-in-out forwards;
   margin-bottom: 60px;
 }
 .projet_page__contenu {
+  animation: arrivee 0.5s ease-in-out forwards;
   display: flex;
 }
 .projet_page__contenu__section_gauche {
@@ -46,6 +47,7 @@
   color: #1A0045;
 }
 .projet_page__footer {
+  animation: arrivee 0.5s ease-in-out forwards;
   margin-top: 120px;
   padding-left: 130px;
 }

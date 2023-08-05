@@ -17,6 +17,12 @@
 .menu_de_navigation__partie_gauche--clair {
   color: #1A0045;
 }
+.menu_de_navigation__partie_gauche__logo {
+  transition: transform 0.2s ease-in-out;
+}
+.menu_de_navigation__partie_gauche__logo:hover {
+  transform: scale(1.15);
+}
 .menu_de_navigation__partie_gauche span {
   font-family: "Chillax-Medium";
   font-style: normal;

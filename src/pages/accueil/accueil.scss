@@ -3,15 +3,14 @@
 .page_accueil {
     height: 100vh;
     overflow: hidden;
-    opacity: 0;
-    @include arrivee_page;
     &--sombre {
-       color: $complementaire; 
+        color: $complementaire; 
     }
     &--clair {
         color: $contrastant-fonce;
     }
     &__contenu {
+        @include arrivee_page;
         position: relative;
         &__logo {
             transform: translateY(45%) translateX(17%);
@@ -48,6 +47,7 @@
         }
     }
     &__cta {
+        @include arrivee_page;
         position: relative;
         top: 70px;
         display: flex;
