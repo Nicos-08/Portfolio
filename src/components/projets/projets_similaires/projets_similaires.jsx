@@ -70,6 +70,4 @@ ProjetsSimilaires.propTypes = {
 	projet: PropTypes.object.isRequired,
 };
 
-ProjetsSimilaires.defaultProps = {};
-
 export default ProjetsSimilaires;

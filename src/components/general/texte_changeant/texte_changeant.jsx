@@ -31,6 +31,4 @@ TexteChangeant.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-TexteChangeant.defaultProps = {};
-
 export default TexteChangeant;

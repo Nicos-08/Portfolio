@@ -27,6 +27,4 @@ CadreInfosProjet.propTypes = {
 	projet: PropTypes.object.isRequired,
 };
 
-CadreInfosProjet.defaultProps = {};
-
 export default CadreInfosProjet;

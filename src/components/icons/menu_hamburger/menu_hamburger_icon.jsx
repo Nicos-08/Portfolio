@@ -48,6 +48,5 @@ MenuHamburgerIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-MenuHamburgerIcon.defaultProps = {};
 
 export default MenuHamburgerIcon;

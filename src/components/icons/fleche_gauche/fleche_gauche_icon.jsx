@@ -34,6 +34,4 @@ FlecheGaucheIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-FlecheGaucheIcon.defaultProps = {};
-
 export default FlecheGaucheIcon;

@@ -50,6 +50,4 @@ Competence.propTypes = {
 	competence: PropTypes.object.isRequired,
 };
 
-Competence.defaultProps = {};
-
 export default Competence;

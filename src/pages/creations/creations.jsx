@@ -57,6 +57,4 @@ PageCreations.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageCreations.defaultProps = {};
-
 export default PageCreations;

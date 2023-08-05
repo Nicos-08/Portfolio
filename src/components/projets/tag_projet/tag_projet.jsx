@@ -13,6 +13,4 @@ TagProjet.propTypes = {
 	tagNom: PropTypes.string.isRequired,
 };
 
-TagProjet.defaultProps = {};
-
 export default TagProjet;

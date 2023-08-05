@@ -20,6 +20,4 @@ LiensItems.propTypes = {
 	texte: PropTypes.string.isRequired,
 };
 
-LiensItems.defaultProps = {};
-
 export default LiensItems;

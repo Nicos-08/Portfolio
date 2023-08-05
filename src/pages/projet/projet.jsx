@@ -69,6 +69,4 @@ PageProjet.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageProjet.defaultProps = {};
-
 export default PageProjet;

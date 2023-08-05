@@ -27,6 +27,4 @@ FilmIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-FilmIcon.defaultProps = {};
-
 export default FilmIcon;

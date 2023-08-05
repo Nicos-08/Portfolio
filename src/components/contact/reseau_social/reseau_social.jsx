@@ -43,6 +43,4 @@ ReseauSocial.propTypes = {
 	reseau: PropTypes.string.isRequired,
 };
 
-ReseauSocial.defaultProps = {};
-
 export default ReseauSocial;

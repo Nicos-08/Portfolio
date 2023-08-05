@@ -88,6 +88,4 @@ PageNavigation.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageNavigation.defaultProps = {};
-
 export default PageNavigation;

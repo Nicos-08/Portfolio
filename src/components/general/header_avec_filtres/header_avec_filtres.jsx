@@ -24,6 +24,4 @@ HeaderAvecFiltres.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-HeaderAvecFiltres.defaultProps = {};
-
 export default HeaderAvecFiltres;

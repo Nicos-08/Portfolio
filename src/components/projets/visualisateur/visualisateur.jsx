@@ -35,6 +35,4 @@ Visualisateur.propTypes = {
 	projet: PropTypes.object.isRequired,
 };
 
-Visualisateur.defaultProps = {};
-
 export default Visualisateur;

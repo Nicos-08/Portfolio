@@ -99,6 +99,4 @@ ThemeIcon.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-ThemeIcon.defaultProps = {};
-
 export default ThemeIcon;

@@ -24,6 +24,4 @@ DesignIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-DesignIcon.defaultProps = {};
-
 export default DesignIcon;

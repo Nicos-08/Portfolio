@@ -14,6 +14,4 @@ TagCardProjet.propTypes = {
 	texte: PropTypes.string.isRequired,
 };
 
-TagCardProjet.defaultProps = {};
-
 export default TagCardProjet;

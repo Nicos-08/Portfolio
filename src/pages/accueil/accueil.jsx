@@ -49,6 +49,4 @@ PageAccueil.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageAccueil.defaultProps = {};
-
 export default PageAccueil;

@@ -17,6 +17,4 @@ TagCardProjetList.propTypes = {
 	tags: PropTypes.array.isRequired,
 };
 
-TagCardProjetList.defaultProps = {};
-
 export default TagCardProjetList;

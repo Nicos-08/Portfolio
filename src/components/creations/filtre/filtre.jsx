@@ -43,6 +43,4 @@ Filtre.propTypes = {
 	type: PropTypes.string.isRequired,
 };
 
-Filtre.defaultProps = {};
-
 export default Filtre;

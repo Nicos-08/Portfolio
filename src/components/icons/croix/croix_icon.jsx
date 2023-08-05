@@ -38,6 +38,4 @@ CroixIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-CroixIcon.defaultProps = {};
-
 export default CroixIcon;

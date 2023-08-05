@@ -38,6 +38,4 @@ Card.propTypes = {
 	projet: PropTypes.object.isRequired,
 };
 
-Card.defaultProps = {};
-
 export default Card;

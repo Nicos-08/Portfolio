@@ -38,6 +38,4 @@ FlecheDroiteIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-FlecheDroiteIcon.defaultProps = {};
-
 export default FlecheDroiteIcon;

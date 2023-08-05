@@ -34,6 +34,4 @@ FlecheBasIcon.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-FlecheBasIcon.defaultProps = {};
-
 export default FlecheBasIcon;

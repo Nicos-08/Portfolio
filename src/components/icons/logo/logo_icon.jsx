@@ -14,6 +14,4 @@ LogoIcon.propTypes = {
     format: PropTypes.string.isRequired
 };
 
-LogoIcon.defaultProps = {};
-
 export default LogoIcon;

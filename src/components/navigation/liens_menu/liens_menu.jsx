@@ -17,6 +17,4 @@ LiensMenu.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-LiensMenu.defaultProps = {};
-
 export default LiensMenu;

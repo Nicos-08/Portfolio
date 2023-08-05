@@ -84,6 +84,4 @@ DureeProjet.propTypes = {
 	dates: PropTypes.object.isRequired,
 };
 
-DureeProjet.defaultProps = {};
-
 export default DureeProjet;

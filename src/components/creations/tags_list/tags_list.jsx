@@ -31,6 +31,4 @@ TagsList.propTypes = {
 	theme: PropTypes.string.isRequired,
 };
 
-TagsList.defaultProps = {};
-
 export default TagsList;

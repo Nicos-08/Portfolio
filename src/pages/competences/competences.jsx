@@ -60,6 +60,4 @@ PageCompetences.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageCompetences.defaultProps = {};
-
 export default PageCompetences;

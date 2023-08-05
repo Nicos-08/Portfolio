@@ -43,6 +43,4 @@ PageContact.propTypes = {
 	setTheme: PropTypes.func.isRequired,
 };
 
-PageContact.defaultProps = {};
-
 export default PageContact;

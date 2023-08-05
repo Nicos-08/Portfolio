@@ -11,6 +11,4 @@ const Composant = () => {
 
 Composant.propTypes = {};
 
-Composant.defaultProps = {};
-
 export default Composant;
