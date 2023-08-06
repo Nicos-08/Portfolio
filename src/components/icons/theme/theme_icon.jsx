@@ -5,8 +5,10 @@ const ThemeIcon = ({ theme, setTheme }) => {
 	function changeTheme() {
 		if (theme === "sombre") {
 			setTheme("clair");
+			localStorage.setItem("theme", "clair");
 		} else if (theme === "clair") {
 			setTheme("sombre");
+			localStorage.setItem("theme", "sombre");
 		}
 	}
 	return (

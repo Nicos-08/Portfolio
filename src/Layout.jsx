@@ -5,11 +5,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PageCompetences from "../src/pages/competences/competences";
 import PageContact from "./pages/contact/contact";
 import PageCreations from "./pages/creations/creations";
+import PageProjet from "./pages/projet/projet";
 
 //Styles
 import "./styles/base/default.css";
 import "./styles/base/fonts.css";
-import PageProjet from "./pages/projet/projet";
 
 //Data
 import PageNavigation from "./pages/navigation/navigation";
@@ -17,7 +17,11 @@ import PageAccueil from "./pages/accueil/accueil";
 import { useState } from "react";
 
 const Layout = () => {
-	const [theme, setTheme] = useState("sombre");
+	const [theme, setTheme] = useState(localStorage.getItem("theme"));
+	if (theme === null) {
+		setTheme("sombre");
+		localStorage.setItem("theme", "sombre");
+	}
 	return (
 		<div className={`App App--${theme}`}>
 			<Router>
