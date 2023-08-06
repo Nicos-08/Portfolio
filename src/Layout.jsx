@@ -14,14 +14,37 @@ import "./styles/base/fonts.css";
 //Data
 import PageNavigation from "./pages/navigation/navigation";
 import PageAccueil from "./pages/accueil/accueil";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Layout = () => {
 	const [theme, setTheme] = useState(localStorage.getItem("theme"));
 	if (theme === null) {
-		setTheme("sombre");
-		localStorage.setItem("theme", "sombre");
+		setTheme(
+			window.matchMedia("(prefers-color-scheme: dark)").matches
+				? "sombre"
+				: "clair"
+		);
+		if (theme === null) {
+			setTheme("sombre");
+		}
 	}
+
+
+	useEffect(() => {
+		const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+		const handleColorSchemeChange = (e) => {
+			setTheme(e.matches ? "sombre" : "clair");
+		};
+
+		mediaQuery.addEventListener("change", handleColorSchemeChange);
+
+		return () => {
+			mediaQuery.removeEventListener("change", handleColorSchemeChange);
+		};
+	}, []);
+
+	
 	return (
 		<div className={`App App--${theme}`}>
 			<Router>
