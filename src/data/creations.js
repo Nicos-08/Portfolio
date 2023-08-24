@@ -109,6 +109,7 @@ const creations = [
 			tags.programmation.css,
 			tags.programmation.projet_perso,
 		],
+		id: "0",
 		dates: {
 			debut: {
 				mois: "11",
@@ -146,6 +147,7 @@ const creations = [
 			tags.programmation.html,
 			tags.programmation.projet_perso,
 		],
+		id: "1",
 		dates: {
 			debut: {
 				mois: "09",
@@ -175,6 +177,7 @@ const creations = [
 			tags.programmation.html,
 			tags.programmation.projet_perso,
 		],
+		id: "2",
 		dates: {
 			debut: {
 				mois: "02",
@@ -207,6 +210,7 @@ const creations = [
 			tags.programmation.javascript,
 			tags.programmation.database,
 		],
+		id: "3",
 		dates: {
 			debut: {
 				mois: "12",
@@ -235,6 +239,7 @@ const creations = [
 			tags.programmation.html,
 			tags.programmation.projet_perso,
 		],
+		id: "4",
 		dates: {
 			debut: {
 				mois: "02",
@@ -261,6 +266,7 @@ const creations = [
         Finalement, j’ai réalisé 3 versions différentes, en utilisant la même forme de départ sur chacune des versions mais en faisant varier la fréquence et les couleurs. Je trouve le résultat très sympathique, cependant je ne porterais pas un T-Shirt avec ce motif 🤣.`,
 		theme: themes.design,
 		tags: [tags.design.illustrator, tags.design.vecteur, tags.design.tumo],
+		id: "5",
 		dates: {
 			debut: {
 				mois: "05",
@@ -289,6 +295,7 @@ const creations = [
         J’ai adoré travailler sur ce projet. Tout d’abord parce qu’Illustrator est un logiciel incroyable et très pratique à utiliser dans des projets comme celui-ci. Ensuite parce que la création de palette de couleurs est quelque chose qui m’intéresse beaucoup. C’est en même temps très libre et imaginatif mais aussi très strict et minutieux. C’est l’un de mes designs que je trouve le mieux réalisé, alors j’en suis très fier 🌟 !`,
 		theme: themes.design,
 		tags: [tags.design.illustrator, tags.design.vecteur, tags.design.tumo],
+		id: "6",
 		dates: {
 			debut: {
 				mois: "05",
@@ -320,6 +327,7 @@ const creations = [
         J’ai pris beaucoup de plaisir à réaliser ce projet car le design d’interface est quelque chose qui me passionne. J’ai essayé de faire un Portfolio très propre et qui me corresponde 🌟.`,
 		theme: themes.design,
 		tags: [tags.design.figma, tags.design.maquette, tags.design.projet_perso],
+		id: "7",
 		dates: {
 			debut: {
 				mois: "03",
@@ -362,6 +370,7 @@ const creations = [
 			tags.design.photoshop,
 			tags.design.tumo,
 		],
+		id: "8",
 		dates: {
 			debut: {
 				mois: "01",

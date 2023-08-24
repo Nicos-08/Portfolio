@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "../../../styles/components/projets/projets_similaires/projets_similaires.css";
 import Card from "../../creations/card/card";
 import creations from "../../../data/creations";
@@ -47,6 +48,8 @@ const ProjetsSimilaires = ({ theme, projet }) => {
 
 	let tags_communs = trier_liste_tags_communs();
 
+	console.log(tags_communs);
+
 	return (
 		<div className="projets_similaires">
 			<span
@@ -58,7 +61,13 @@ const ProjetsSimilaires = ({ theme, projet }) => {
 				className={`projets_similaires__caroussel projets_similaires__caroussel--${theme}`}
 			>
 				{tags_communs.map((tag, index) => (
-					<Card theme={theme} projet={tag.projet} key={`${tag}-${index}`} />
+					<Link
+						to={`/projet/${tag.projet.id}`}
+						key={`${tag}-${index}`}
+						onClick={() => window.scrollTo(0, 0)}
+					>
+						<Card theme={theme} projet={tag.projet} />
+					</Link>
 				))}
 			</div>
 		</div>
