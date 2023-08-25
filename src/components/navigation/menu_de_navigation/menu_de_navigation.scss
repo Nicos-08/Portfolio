@@ -37,3 +37,13 @@
         gap: 34px;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .menu_de_navigation {
+        &__partie_gauche {
+            span {
+                display: none;
+            }
+        }
+    }
+}

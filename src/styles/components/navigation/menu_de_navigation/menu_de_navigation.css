@@ -36,4 +36,10 @@
   gap: 34px;
 }
 
+@media screen and (max-width: 460px) {
+  .menu_de_navigation__partie_gauche span {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=menu_de_navigation.css.map */
