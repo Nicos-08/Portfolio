@@ -83,8 +83,6 @@
     .page_accueil {
         &__contenu {
             flex-direction: column;
-            position: absolute;
-            bottom: 10%;
             &__textes {
                 margin: 0;
                 &__nom {

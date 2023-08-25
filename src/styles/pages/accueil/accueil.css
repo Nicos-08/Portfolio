@@ -76,8 +76,6 @@
 @media screen and (max-width: 1008px) {
   .page_accueil__contenu {
     flex-direction: column;
-    position: absolute;
-    bottom: 10%;
   }
   .page_accueil__contenu__textes {
     margin: 0;
