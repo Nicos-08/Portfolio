@@ -21,3 +21,25 @@
     line-height: normal;
     letter-spacing: 1.2px;
 }
+
+@media screen and (max-width: 1180px) {
+    .texte_changeant {
+        span {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1008px) {
+    .texte_changeant {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .texte_changeant {
+        span {
+            font-size: 25px;
+        }
+    }
+}

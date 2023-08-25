@@ -9,11 +9,14 @@
   color: #1A0045;
 }
 .page_accueil__contenu {
-  animation: arrivee 0.5s ease-in-out forwards;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  gap: 3%;
 }
 .page_accueil__contenu__logo {
-  transform: translateY(45%) translateX(17%);
+  transform: translateY(0.1px);
 }
 .page_accueil__contenu__logo__logo_original {
   position: relative;
@@ -22,20 +25,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 415px;
-  height: 415px;
 }
 .page_accueil__contenu__logo__logo_flou {
+  position: absolute;
   top: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  height: 100%;
+  width: 100%;
   filter: blur(50px);
 }
 .page_accueil__contenu__textes {
-  transform: translateY(-70%) translateX(42%);
+  margin-right: 30px;
 }
 .page_accueil__contenu__textes__nom {
   font-family: "Chillax-Semibold";
@@ -46,10 +49,12 @@
 .page_accueil__cta {
   animation: arrivee 0.5s ease-in-out forwards;
   position: relative;
-  top: 70px;
+  bottom: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 @keyframes arrivee {
@@ -58,6 +63,48 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .page_accueil__contenu {
+    gap: 4%;
+  }
+  .page_accueil__contenu__textes__nom {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 1008px) {
+  .page_accueil__contenu {
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+  }
+  .page_accueil__contenu__textes {
+    margin: 0;
+  }
+  .page_accueil__contenu__textes__nom {
+    margin: 0;
+  }
+  .page_accueil__cta {
+    bottom: 5%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .page_accueil__contenu__textes__nom {
+    display: block;
+    text-align: center;
+    font-size: 45px;
+  }
+}
+@media screen and (max-height: 860px) {
+  .page_accueil__cta {
+    bottom: 50px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .page_accueil__contenu {
+    position: relative;
+    top: -3vh;
   }
 }
 

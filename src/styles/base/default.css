@@ -1,26 +1,22 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
-	min-height: 100vh;
-	height: 100%;
-	max-width: 100vw;
-	transition: background-color 1s cubic-bezier(0.15, 0.69, 0.73, 0.54);
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100vw;
 }
 .App--sombre {
-	background-color: #1a0045;
+  background-color: #1A0045;
 }
 .App--clair {
-	background-color: #bcc6ff;
+  background-color: #BCC6FF;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-	text-decoration: none;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=default.css.map */

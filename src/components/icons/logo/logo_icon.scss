@@ -18,3 +18,29 @@
         height: 415px;
     }
 }
+
+@media screen and (max-width: 1180px) {
+    .logo_icon {
+        &--grand {
+            width: 250px;
+            height: 250px;
+        }
+        &--enorme {
+            width: 323px;
+            height: 323px;
+        }
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .logo_icon {
+        &--grand {
+            width: 180px;
+            height: 180px;
+        }
+        &--enorme {
+            width: 233px;
+            height: 233px;
+        }
+    }
+}
