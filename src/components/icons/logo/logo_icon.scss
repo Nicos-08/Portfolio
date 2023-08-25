@@ -44,3 +44,17 @@
         }
     }
 }
+
+@media screen and (max-height: 700px) {
+    .logo_icon {
+        &--grand {
+            width: 200px;
+            height: 200px;
+        }
+        &--enorme {
+            width: 259px;
+            height: 259px;
+        }
+    }
+}
+

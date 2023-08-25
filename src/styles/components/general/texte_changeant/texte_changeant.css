@@ -33,5 +33,13 @@
     font-size: 25px;
   }
 }
+@media screen and (max-height: 615px) {
+  .texte_changeant {
+    text-align: left !important;
+  }
+  .texte_changeant span {
+    font-size: 3.5vw;
+  }
+}
 
 /*# sourceMappingURL=texte_changeant.css.map */

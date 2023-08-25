@@ -35,5 +35,15 @@
     height: 233px;
   }
 }
+@media screen and (max-height: 700px) {
+  .logo_icon--grand {
+    width: 200px;
+    height: 200px;
+  }
+  .logo_icon--enorme {
+    width: 259px;
+    height: 259px;
+  }
+}
 
 /*# sourceMappingURL=logo_icon.css.map */

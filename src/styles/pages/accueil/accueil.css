@@ -94,15 +94,44 @@
     font-size: 45px;
   }
 }
+@media screen and (max-width: 455px) {
+  .page_accueil__contenu {
+    position: relative;
+    top: -3vh;
+  }
+}
 @media screen and (max-height: 860px) {
   .page_accueil__cta {
     bottom: 50px;
   }
 }
-@media screen and (max-width: 455px) {
+@media screen and (max-height: 615px) {
   .page_accueil__contenu {
-    position: relative;
-    top: -3vh;
+    flex-direction: row;
+  }
+  .page_accueil__contenu__textes {
+    text-align: left !important;
+  }
+  .page_accueil__contenu__textes__nom {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-height: 590px) {
+  .page_accueil__cta {
+    bottom: 17%;
+  }
+}
+@media screen and (max-height: 485px) {
+  .page_accueil__cta {
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-height: 430px) {
+  .page_accueil__contenu__textes {
+    margin-bottom: 50px;
+  }
+  .page_accueil__cta {
+    bottom: 23%;
   }
 }
 

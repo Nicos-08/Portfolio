@@ -43,3 +43,12 @@
         }
     }
 }
+
+@media screen and (max-height: 615px) {
+    .texte_changeant {
+        text-align: left !important;
+        span {
+            font-size: 3.5vw;
+        }
+    }
+}
