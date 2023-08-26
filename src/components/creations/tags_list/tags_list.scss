@@ -5,3 +5,18 @@
     gap: 40px;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 750px) {
+    .tags_list {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tags_list {
+        flex-direction: column;
+        transform: scale(1);
+        gap: 30px;
+    }
+}

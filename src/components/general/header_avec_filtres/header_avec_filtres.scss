@@ -19,3 +19,26 @@
         }
     }
 }
+
+@media screen and (max-width: 950px) {
+    .header_avec_filtres {
+        &__titre {
+            font-size: 9vw;
+        }
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .header_avec_filtres {
+        &__titre {
+            font-size: 11vw;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header_avec_filtres {
+        gap: 0;
+    }
+}

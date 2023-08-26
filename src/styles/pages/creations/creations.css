@@ -23,5 +23,30 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 1999px) {
+  .creations_page__container_projets {
+    grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
+  }
+}
+@media screen and (max-width: 1700px) {
+  .creations_page__container_projets {
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  }
+}
+@media screen and (max-width: 1500px) {
+  .creations_page__container_projets {
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+  }
+}
+@media screen and (max-width: 1350px) {
+  .creations_page__container_projets {
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+  }
+}
+@media screen and (max-width: 735px) {
+  .creations_page__container_projets {
+    grid-template-columns: repeat(auto-fit, minmax(60vw, 1fr));
+  }
+}
 
 /*# sourceMappingURL=creations.css.map */
