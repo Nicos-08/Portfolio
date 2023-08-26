@@ -7,7 +7,7 @@
         justify-content: center;
         height: calc(100vh - 100px);
         flex-direction: column;
-        gap: 100px;
+        gap: 10vh;
         margin-left: 130px;
         &__item {
             display: inline-flex;
@@ -66,3 +66,93 @@
 }
 
 @include arrivee_page_keyframe;
+
+
+@media screen and (max-width: 1100px) {
+    .page_navigation {
+        &__container_liens {
+            &__item {
+                &__numero {
+                    font-size: 2vw;
+                }
+                &__nom {
+                    font-size: 8vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .page_navigation {
+        &__container_liens {
+            &__item {
+                &__numero {
+                    font-size: 2vw;
+                }
+                &__nom {
+                    font-size: 7vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .page_navigation {
+        &__container_liens {
+            align-items: center;
+            margin: 0;
+            &__item {
+                &__numero {
+                    display: none;
+                }
+                &__nom {
+                    font-size: 9vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-height: 950px) {
+    .page_navigation {
+        &__container_liens {
+            gap: 8vh;
+        }
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .page_navigation {
+        &__container_liens {
+            gap: 6vh;
+        }
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .page_navigation {
+        &__container_liens {
+            gap: 4.5vh;
+        }
+    }
+}
+
+@media screen and (max-height: 460px) {
+    .page_navigation {
+        &__container_liens {
+            margin-left: 10vw;
+            &__item {
+                &__numero {
+                    font-size: 3vh;
+                }
+                &__nom {
+                    font-size: 10vh;
+                }
+            }
+        }
+    }
+}
