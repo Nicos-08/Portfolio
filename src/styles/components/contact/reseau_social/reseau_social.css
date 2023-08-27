@@ -1,3 +1,7 @@
+.reseau_social {
+  width: 380px;
+  height: 520px;
+}
 .reseau_social__visible {
   position: absolute;
   z-index: 2;
@@ -52,6 +56,138 @@
 }
 .reseau_social__invisible__nom--clair {
   color: #F0F2FE;
+}
+
+@media screen and (max-width: 1235px) {
+  .reseau_social {
+    width: 317px;
+  }
+  .reseau_social__visible {
+    width: 317px;
+  }
+  .reseau_social__visible img {
+    width: 250px;
+    height: 250px;
+  }
+  .reseau_social__visible__flou {
+    width: 250px;
+    height: 250px;
+  }
+  .reseau_social__invisible {
+    min-width: 317px;
+    min-height: 450px;
+    border-radius: 35px;
+  }
+  .reseau_social__invisible__nom {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 120%;
+    word-break: break-all;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .reseau_social {
+    width: 279px;
+  }
+  .reseau_social__visible {
+    width: 279px;
+  }
+  .reseau_social__visible img {
+    width: 220px;
+    height: 220px;
+  }
+  .reseau_social__visible__flou {
+    width: 220px;
+    height: 220px;
+  }
+  .reseau_social__invisible {
+    min-width: 279px;
+    min-height: 420px;
+  }
+}
+@media screen and (max-width: 938px) {
+  .reseau_social {
+    width: 228px;
+    height: 430px;
+  }
+  .reseau_social__visible {
+    width: 228px;
+  }
+  .reseau_social__visible img {
+    width: 180px;
+    height: 180px;
+  }
+  .reseau_social__visible__flou {
+    width: 180px;
+    height: 180px;
+  }
+  .reseau_social__invisible {
+    min-width: 228px;
+    min-height: 400px;
+  }
+}
+@media screen and (max-width: 838px) {
+  .reseau_social {
+    width: 190px;
+    height: 380px;
+  }
+  .reseau_social__visible {
+    width: 190px;
+  }
+  .reseau_social__visible img {
+    width: 150px;
+    height: 150px;
+  }
+  .reseau_social__visible__flou {
+    width: 150px;
+    height: 150px;
+  }
+  .reseau_social__invisible {
+    min-width: 190px;
+    min-height: 350px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .reseau_social {
+    height: 250px;
+  }
+  .reseau_social__invisible {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .reseau_social {
+    width: 152px;
+    height: 200px;
+  }
+  .reseau_social__visible {
+    width: 152px;
+  }
+  .reseau_social__visible img {
+    width: 120px;
+    height: 120px;
+  }
+  .reseau_social__visible__flou {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .reseau_social {
+    width: 114px;
+    height: 200px;
+  }
+  .reseau_social__visible {
+    width: 114px;
+  }
+  .reseau_social__visible img {
+    width: 90px;
+    height: 90px;
+  }
+  .reseau_social__visible__flou {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 /*# sourceMappingURL=reseau_social.css.map */

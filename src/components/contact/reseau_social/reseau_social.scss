@@ -1,6 +1,8 @@
 @import "../../../utils/utils_global";
 
 .reseau_social {
+    width: 380px;
+    height: 520px; 
     &__visible {
         position: absolute;
         z-index: 2;
@@ -56,4 +58,144 @@
             }
         }
     }
+}
+
+
+@media screen and (max-width: 1235px) {
+    .reseau_social {
+        width: 317px;
+        &__visible {
+            width: 317px;
+            img {
+                width: 250px;
+                height: 250px;
+            }
+            &__flou {
+                width: 250px;
+                height: 250px;
+            }
+        }
+        &__invisible {
+            min-width: 317px;
+            min-height: 450px;
+            border-radius: 35px;
+            &__nom {
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 120%;
+                word-break: break-all;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 1120px) {
+    .reseau_social {
+        width: 279px;
+        &__visible {
+            width: 279px;
+            img {
+                width: 220px;
+                height: 220px;
+            }
+            &__flou {
+                width: 220px;
+                height: 220px;
+            }
+        }
+        &__invisible {
+            min-width: 279px;
+            min-height: 420px;
+        }
+    }   
+}
+
+@media screen and (max-width: 938px) {
+    .reseau_social {
+        width: 228px;
+        height: 430px;
+        &__visible {
+            width: 228px;
+            img {
+                width: 180px;
+                height: 180px;
+            }
+            &__flou {
+                width: 180px;
+                height: 180px;
+            }
+        }
+        &__invisible {
+            min-width: 228px;
+            min-height: 400px;
+        }
+    }   
+}
+
+@media screen and (max-width: 838px) {
+    .reseau_social {
+        width: 190px;
+        height: 380px;
+        &__visible {
+            width: 190px;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            &__flou {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        &__invisible {
+            min-width: 190px;
+            min-height: 350px;
+        }
+    }   
+}
+
+@media screen and (max-width: 750px) {
+    .reseau_social {
+        height: 250px;
+        &__invisible {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .reseau_social {
+        width: 152px;
+        height: 200px;
+        &__visible {
+            width: 152px;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+            &__flou {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }   
+}
+
+
+@media screen and (max-width: 500px) {
+    .reseau_social {
+        width: 114px;
+        height: 200px;
+        &__visible {
+            width: 114px;
+            img {
+                width: 90px;
+                height: 90px;
+            }
+            &__flou {
+                width: 90px;
+                height: 90px;
+            }
+        }
+    }   
 }

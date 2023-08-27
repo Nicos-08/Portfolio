@@ -21,11 +21,41 @@
         }
         &__reseaux {
             display: flex;
-            gap: 30%;
             justify-content: center;
-            margin-right: 20%;
         }
     }
 }
 
 @include arrivee_page_keyframe;
+
+
+@media screen and (max-width: 1150px) {
+    .contact_page {
+        &__contenu {
+            gap: 50px;
+            &__titre {
+                font-size: 70px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .contact_page {
+        &__contenu {
+            gap: 50px;
+            &__titre {
+                font-size: 7vw;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .contact_page {
+        &__contenu {
+            gap: 0;
+        }
+    }
+}

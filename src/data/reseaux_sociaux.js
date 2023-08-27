@@ -6,7 +6,7 @@ const reseaux_sociaux = {
 	instagram: {
 		image: instagram_logo,
 		texte: "nicolas_loul",
-		lien: "https://www.instagram.com/nicolas_loul/",
+		lien: "https://www.instagram.com/nicolas_frzt/",
 	},
 	github: {
 		image: github_logo,

@@ -19,9 +19,7 @@
 }
 .contact_page__contenu__reseaux {
   display: flex;
-  gap: 30%;
   justify-content: center;
-  margin-right: 20%;
 }
 
 @keyframes arrivee {
@@ -30,6 +28,27 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .contact_page__contenu {
+    gap: 50px;
+  }
+  .contact_page__contenu__titre {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 938px) {
+  .contact_page__contenu {
+    gap: 50px;
+  }
+  .contact_page__contenu__titre {
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact_page__contenu {
+    gap: 0;
   }
 }
 
