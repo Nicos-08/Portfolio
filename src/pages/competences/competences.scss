@@ -17,3 +17,12 @@
 }
 
 @include arrivee_page_keyframe;
+
+
+@media screen and (max-width: 550px) {
+    .competences_page {
+        &__container_competences {
+            gap: 30px;
+        }
+    }
+}

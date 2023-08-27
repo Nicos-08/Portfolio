@@ -22,5 +22,10 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 550px) {
+  .competences_page__container_competences {
+    gap: 30px;
+  }
+}
 
 /*# sourceMappingURL=competences.css.map */

@@ -34,7 +34,7 @@ const PageCompetences = ({ theme, setTheme }) => {
 			<div className="competences_page__header">
 				<HeaderAvecFiltres
 					theme={theme}
-					type="Mes compétences"
+					type="Compétences"
 					visibles={visibles}
 					modifierVisibles={modifierVisibles}
 				/>

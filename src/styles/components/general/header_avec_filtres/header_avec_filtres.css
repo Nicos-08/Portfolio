@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header_avec_filtres {
   display: flex;
   flex-direction: column;
@@ -26,6 +27,9 @@
 @media screen and (max-width: 700px) {
   .header_avec_filtres__titre {
     font-size: 11vw;
+  }
+  .header_avec_filtres__titre--Compétences {
+    font-size: 10vw;
   }
 }
 @media screen and (max-width: 500px) {

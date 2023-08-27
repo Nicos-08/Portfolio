@@ -33,6 +33,9 @@
     .header_avec_filtres {
         &__titre {
             font-size: 11vw;
+            &--Compétences {
+                font-size: 10vw;
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ const HeaderAvecFiltres = ({ type, theme, visibles, modifierVisibles }) => {
 	return (
 		<div className="header_avec_filtres">
 			<span
-				className={`header_avec_filtres__titre header_avec_filtres__titre--${theme}`}
+				className={`header_avec_filtres__titre header_avec_filtres__titre--${theme} header_avec_filtres__titre--${type}`}
 			>
 				{type === "Mes créations" ? "Mes créations" : "Mes compétences"}
 			</span>

@@ -58,4 +58,29 @@
   color: #1A0045;
 }
 
+@media screen and (max-width: 900px) {
+  .competence {
+    padding: 17px;
+  }
+  .competence__partie_visible__nom {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .competence__partie_visible__nom {
+    font-size: 30px;
+  }
+  .competence__partie_invisible__element {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .competence {
+    padding: 15px;
+  }
+  .competence__partie_visible__nom {
+    font-size: 27px;
+  }
+}
+
 /*# sourceMappingURL=competence.css.map */
