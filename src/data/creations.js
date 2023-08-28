@@ -385,7 +385,6 @@ const creations = [
 		imagePrincipale: [{ original: app_musique_image_principale }],
 		imagePrincipalePosition: "top",
 		images: [
-			{ original: app_musique_image_1 },
 			{ original: app_musique_image_2 },
 			{ original: app_musique_image_3 },
 			{ original: app_musique_image_4 },
