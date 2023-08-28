@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import "../../../styles/components/projets/visualisateur/visualisateur.css";
-import PleinEcranIcon from "../../icons/plein_ecran/plein_ecran_icon";
 import { useEffect, useState } from "react";
 import ReactImageGallery from "react-image-gallery";
 
@@ -8,13 +7,15 @@ const Visualisateur = ({ projet }) => {
 	const [images, setImages] = useState([]);
 
 	useEffect(() => {
-		const updatedImages = [...projet.imagePrincipale];
+		if (projet.images !== undefined) {
+			const updatedImages = [...projet.imagePrincipale];
 
-		for (let image of projet.images) {
-			updatedImages.push(image);
+			for (let image of projet.images) {
+				updatedImages.push(image);
+			}
+
+			setImages(updatedImages);
 		}
-
-		setImages(updatedImages);
 	}, [projet.imagePrincipale, projet.images]);
 
 	return (
