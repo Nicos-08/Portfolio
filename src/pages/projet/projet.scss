@@ -1,6 +1,7 @@
 @import "../../utils/utils_global";
 
 .projet_page {
+    overflow: hidden;
     padding-bottom: 100px;
     &__visualisateur {
         @include arrivee_page;

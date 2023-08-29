@@ -1,4 +1,5 @@
 .projet_page {
+  overflow: hidden;
   padding-bottom: 100px;
 }
 .projet_page__visualisateur {
