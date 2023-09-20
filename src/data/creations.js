@@ -122,7 +122,15 @@ const tags = {
 const creations = [
 	{
 		nom: "Branding emotion",
-		description: ``,
+		description: `J'ai réalisé ce projet durant un stage de design graphique avec Martin Zarian, designer d'identités de marques qui est le co-fondateur de l'entreprise Factory 39. Ce stage était organisé par Tumo, une organisation de la région pour apprendre aux jeunes les compétences du numérique. Nous avions une semaine pour créer l'identité de marque d'une émotion. Et tout cela en anglais 🥵, car Martin ne parlait que cette langue.
+		
+		Mon émotion était la tristesse 😭. Nous avons commencé par inventer le nom de notre marque. Pour ma part j'ai choisi DEPRIM' car cela évoquait bien la tristesse. J'ai également eu pleins d'autres idées comme Achlys 🤔 (déesse romaine de la tristesse) ou Tristous mais il ne fallait en garder qu'un !
+		
+		Ensuite, il fallait imaginer et designer le logo avec papier et crayon. Au début, la quantité était plus importante que la qualité : il fallait essayer le maximum de possibilités de logo, garder toutes les idées et enfin choisir celles qui nous plaisaient le plus. Quand nous avions à peut près l'idée de à quoi notre logo allait ressembler, nous sommes passés sur Adobe Illustrator 🤩, un logiciel de graphisme vectoriel pour redesigner notre logo sur l'ordinateur. Là aussi, il fallait faire plusieurs variantes et ne pas rester focaliser sur la même idée. Mon logo représente un D (pour la première lettre de DEPRIM') avec une apostrophe au milieu (pour PRIM') qui ressemble un peu à une larme et qui semble seule et perdue au milieu de ce grand D 🥺. J'ai appris qu'un logo ne peut pas seulement être bon parce qu'il nous plait mais aussi parce qu'il a du sens.
+		
+		Pour la palette de couleurs, j'ai choisi des couleurs bleues foncées, très désaturées et pas très gaies. Croyez moi, vivre une semaine avec ces couleurs est très déprimant 😅.
+		
+		Enfin nous avons pu passer à la partie la plus sympa : les posters et les mockups 😍. L'objectif était de donner vie à la marque en créant des produits, des affiches publicitaires, des éléments graphiques liés à la marque... Même si mon émotion était la tristesse, j'ai voulu créer des produits drôles comme des médicaments à prendre si on se sent trop bien, un guide pour être dépressif et une canette de larmes 100% naturelles. Malgré cette émotion, je me suis beaucoup amusé, et j'ai surtout appris beaucoup de choses 👍 !!!`,
 		theme: themes.design,
 		tags: [tags.design.branding, tags.design.tumo],
 		id: "0",
@@ -179,7 +187,17 @@ const creations = [
 	},
 	{
 		nom: "Documentaire modelisation 3D",
-		description: ``,
+		description: `J'ai réalisé ce projet durant un stage à Tumo, une organisation de la région pour apprendre les compétences du numérique aux jeunes. Ce stage avait comme objectif la création d'un documentaire de 3min maximum sur le métier de concepteur 3D. Tumo participait à un concours (Filme le métier qui te plaît) qui est organisé chaque année avec comme objectif de faire concourir des jeunes pour qu'ils présentent un métier en vidéo. Nous étions une dizaine jeunes à participer à ce stage.
+		
+		Après avoir analysé plusieurs documentaires, nous sommes allés rendre visite à deux entreprises de modélisation 3D, SWARM et DIWI, toutes deux situées dans le campus de Tumo. Nous avons visité les lieux, posé des questions aux employés et observé certaines activités afin d'en apprendre plus sur le métier de concepteur 3D 🖥️.
+		
+		Ensuite, nous avons réfléchi à la façon dont nous allions pouvoir présenter le métier. Nous devions penser à ce que nous voulions que les employés disent, aux plans que nous allions intégrer, aux éléments graphiques... Nous avons voulu faire un documentaire fictionnel avec une petite histoire qui explique la raison pour laquelle nous avions besoin d'utiliser la modélisation 3D (et parce que c'est drôle hihihi 😁).
+		
+		Lorsque notre storyboard fut prêt, nous nous sommes répartis les rôles : cadreur, réalisateur, ingénieur du son... La journée de tournage fut très intense 🥵 car nous avions beaucoup de plans à tourner et nous voulions que tout soit parfait ⭐. Les employés de SWARM et de DIWI étaient vraiment très sympathiques et je les remercie du temps qu'ils nous ont accorder.
+		
+		Pour finir, nous avions une journée de montage. J'ai décidé de me mettre en binome avec une amie : cela permet de travailler 2 fois plus vite sur certaines tâches et d'avoir un point de vue critique différent. Au final je suis très fier du résultat 😄. J'ai appris beaucoup de choses pendant cette semaine autant sur le métier de concepteur 3D que sur les étapes de la création d'un film.
+		
+		Bien entendu, nous nous sommes rendus à la cérémonie de remise des prix qui était au Grand Rex à Paris 🤯 !!! Les films proposés par certains candidats étaient vraiment époustouflants 🤩 mais nous n'avons malheuresement pas gagné de prix 🥲 (comme lot de consolation on a eu des Kitkat je trouve que c'est déjà bien 🤣).`,
 		theme: themes.films,
 		tags: [
 			tags.films.tournage,
@@ -330,7 +348,15 @@ const creations = [
 	},
 	{
 		nom: "Le braquage",
-		description: ``,
+		description: `J'ai réalisé ce projet dans le cadre d'un LAB de cinéma à Tumo, un centre de formation pour les jeunes aux compétences du numérique.
+		
+		L'objectif était de créer un petit court-métrage 🤩. Comme base, nous avions juste un dialogue entre deux personnages que nous devions utiliser dans le film. A partir de cela, nous avons inventé toute l'histoire ! Nous étions 4 ados accompagnés par 2 professionnels du cinéma et nous avons chacun partagé et mélangé nos idées.
+		
+		Nous avons commencé par créer un storyboard comprenant une case pour chaque plan avec les angles de prises de vue, les dialogues, les accessoires nécessaires et toutes autres instructions pour le caméraman 🎥.
+		
+		Après avoir appris notre texte, nous avons pu nous rendre sur le lieu de tournage et filmer nos scènes. Nous étions tous acteurs et nous avons donc dû apprendre à nous mettre dans la peau des personnages 😉. A certains moments c'était vraiment hyper dûr de ne pas rigoler 🤣. Quand nous n'étions pas dans la scène, nous nous relayions à la place du caméraman et du réalisateur qui donnait des ordres et des conseils aux acteurs. C'était vraiment hyper intéressant de pouvoir tester tous les rôles 👍.
+		
+		Quand toutes les scènes ont été tournées, nous sommes passé chacun de notre côté à la partie montage sur Adobe Première Pro. Nous n'avions qu'une séance de 2 heures pour tout monter, alors il ne fallait pas trainer 🤯. Nous étions tous vraiment très fiers du résultat et de tout ce que nous avions appris à faire.`,
 		theme: themes.films,
 		tags: [
 			tags.films.tournage,
@@ -357,7 +383,19 @@ const creations = [
 	},
 	{
 		nom: "Branding chocolaterie",
-		description: ``,
+		description: `Durant les vacances d'été, j'ai décidé de passer une semaine sur des "projets" (je suis le seul à me dire ça mdr). J'avais dédié chaque jour à un thème particulier et l'objectif était de finaliser un projet avant la fin de la journée. Autant dire que c'était assez court ⌚. J'ai réalisé certains projets dans des thèmes que je ne connaissais pas du tout (modélisation 3D par exemple) ce qui m'a permis d'apprendre les bases et de voir si ça m'intéressait. J'ai aussi réalisé d'autres projets dans des thèmes que j'avais déjà pratiqué (ce qui est ici le cas avec le design) ce qui m'a permis de réaliser de plus petits projets en parallèles de plus grands projets.
+		
+		J'ai demandé à mes parents de m'imaginer une entreprise et de m'en donner ses caractéristiques. Gourmands comme ils sont 😋, l'entreprise fut une chocolaterie de chocolat de qualité avec les couleurs vert et marron. Leur description était très courte et m'a donc permis de laisser place à mon imagination.
+		
+		Tout d'abord, j'ai commencé par le nom de l'entreprise. J'ai eu plusieurs idées mais je suis parti sur "Kyoko". L'histoire derrière ce nom est la suivante (accrochez-vous bien 🥱) : le cacao (ingrédient principal du chocolat) est majoritairement produit au Ghana, un pays d'Afrique de l'Ouest. En Twi, la langue officielle du Ghana, chocolat se dit "[kyoko]late". J'ai trouvé que ce nom était adapté à cette entreprise car le lieu d'origine de la matière première du chocolat indique qu'il est de qualité.
+		
+		Ensuite, j'ai créé le logo. J'ai fait beaucoup de tests, notamment en ajoutant comme élément graphique une fêve de cacao pour renforcer cette idée de matière première. Finalement je suis resté sur un design beaucoup plus simple et chic avec cette police d'écriture qui peut faire penser à celle de Lindt.
+		
+		Enfin, j'ai réalisé des mockups et des posters afin de donner vie à la marque ⭐. Les mockups sont des objets que la marque pourrait produire (ici des tablettes de chocolat et du cacao en poudre). Pour les posters, j'ai eu besoin de rechercher des images d'illustrations sur des banques d'images libres de droits en ligne.
+		
+		Durant ce "challenge" j'ai dû faire face à un problème que je n'avais pas envisagé : les logiciels. Si vous regardez mes autres projets de design, vous trouverez des projets réalisés avec Illustrator, Photoshop et d'autres outils payants. Cependant, j'ai réalisé ce projet chez moi, ce qui signifie sans aucun de ces outils (et oui je ne suis pas Picsou 💰). J'ai dû tout réaliser sur Figma, un logiciel qui est plutôt spécialisé dans le desgin de maquettes d'applis mobiles / sites web. Je n'avais pas non plus de licence sur des banques de mockups. Je n'ai pu en trouver que quelques-uns avec une qualité et une facilité d'utilisation à désirer... 😬
+		
+		Finalement, je suis assez fier du résultat même si je trouve que je suis parti un peu trop dans une chocolaterie de luxe plutôt que dans une chocolaterie de qualité.`,
 		theme: themes.design,
 		tags: [tags.design.branding, tags.design.projet_perso],
 		id: "8",
@@ -383,7 +421,13 @@ const creations = [
 	},
 	{
 		nom: "Bande annonce film",
-		description: ``,
+		description: `J'ai réalisé ce projet dans le cadre d'un LAB de cinéma à Tumo, un centre de formation pour les jeunes aux compétences du numérique.
+		
+		J'avais à ma disposition le court-métrage "Tao" qui durait environ 15 minutes. L'objectif de ce LAB était de découvrir le montage vidéo 🎥. Pour ma part, j'avais déjà fait du montage vidéo chez moi sur DaVinci Resolve mais j'ai ici dû découvrir un nouveau logiciel de montage vidéo : Première Pro. C'est le logiciel de montage le plus utilisé et je comprends tout à fait pourquoi : sa facilité d'utilisation et sa multitude d'option le rendent très efficace 😀 !
+		
+		Durant ce LAB, nous devions réaliser une bande annonce pour ce film. Il m'a donc fallu sélectionner certains passages du film. L'objectif d'une bande annonce est de donner envie au spectateur de regarder le film. Il faut donc sélectionner des passages à sensations mais il ne faut pas spoiler tout le film 🤭 !!! Une bande annonce doit être courte et chaque seconde doit être minutieusement réfléchie. Pour attirer au maximum le spectateur, il faut que les plans s'enchaînent rapidement, que la musique soit entraînante et qu'une intringue soit laissée chez le spectateur. J'ai donc suivi tous ces conseils pour réaliser ma bande annonce.
+		
+		Mon résultat final est plutôt pas mal malgré le fait que le changement de musique soit assez brusque 😲.`,
 		theme: themes.films,
 		tags: [tags.films.montage, tags.films.bande_annonce, tags.films.tumo],
 		id: "9",
@@ -481,7 +525,13 @@ const creations = [
 	},
 	{
 		nom: "Film d'horreur",
-		description: ``,
+		description: `J'ai réalisé ce projet lors d'un Lab à Tumo, une organisation de la région pour enseigner les compétences du numérique aux jeunes.
+		
+		Nous avions les rushs (tout ce qui a été filmé) d'un film d'horreur 🧟. L'objectif était donc de monter le film, chacun sur notre ordinateur. Nous devions couper les passages indésirables, chosir quels plans nous allions utiliser et les faire se succéder. C'était la première fois que j'utilisais Adobe Première Pro 😍 mais ça ne m'a pas beaucoup changé de mon ancien logiciel de montage, DaVinci Resolve.
+		
+		Il fallait également ajouter des éléments sonores, des musiques de fond et bien les faire s'accorder avec l'image 🥵.
+		
+		Pour une fois, je ne suis pas entièrement satisfait du résultat car je trouve que la peur ne se ressent pas assez. Mais il y a un début à tout 😉 !`,
 		theme: themes.films,
 		tags: [tags.films.montage, tags.films.tumo],
 		id: "12",
