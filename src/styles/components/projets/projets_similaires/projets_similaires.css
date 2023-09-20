@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  overflow: scroll;
 }
 .projets_similaires__span {
   font-family: "Chillax-Regular";
@@ -19,8 +18,12 @@
   color: #1A0045;
 }
 .projets_similaires__caroussel {
+  margin-right: 130px;
+  overflow-x: scroll;
+  overflow-y: hidden;
   display: flex;
   gap: 40px;
+  padding-bottom: 10px;
 }
 .projets_similaires__caroussel .card {
   width: 250px;
