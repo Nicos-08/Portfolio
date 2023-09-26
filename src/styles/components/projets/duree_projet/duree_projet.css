@@ -40,4 +40,34 @@
   min-width: 250px;
 }
 
+@media screen and (max-width: 1300px) {
+  .duree_projet__ligne_et_duree__ligne {
+    min-width: 10vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .duree_projet {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .duree_projet__date_debut, .duree_projet__date_fin {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .duree_projet__date_debut, .duree_projet__date_fin {
+    display: none;
+  }
+  .duree_projet__ligne_et_duree span {
+    display: block;
+    font-size: 30px;
+    margin-top: 3px;
+  }
+  .duree_projet__ligne_et_duree__ligne {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=duree_projet.css.map */

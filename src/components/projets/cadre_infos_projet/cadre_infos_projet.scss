@@ -44,3 +44,17 @@
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .cadre_infos_projet {      
+        width: 100vw;
+        border-radius: 0;
+        &__tags {
+            padding-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+}

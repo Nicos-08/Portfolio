@@ -41,3 +41,43 @@
         }
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .duree_projet {
+        &__ligne_et_duree {
+            &__ligne {
+                min-width: 10vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .duree_projet {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        &__date_debut, &__date_fin {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .duree_projet {
+        &__date_debut, &__date_fin {
+            display: none;
+        }
+        &__ligne_et_duree {
+            span {
+                display: block;
+                font-size: 30px;
+                margin-top: 3px;
+            }
+            &__ligne {
+                display: none;
+            }
+        }
+    }
+}

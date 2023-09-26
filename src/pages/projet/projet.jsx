@@ -49,9 +49,6 @@ const PageProjet = ({ theme, setTheme }) => {
 							{projet.description}
 						</p>
 					</div>
-					<Link to={"/creations"}>
-						<Button texte="Retour aux projets" />
-					</Link>
 				</div>
 				<div className="projet_page__contenu__section_droite">
 					<CadreInfosProjet projet={projet} theme={theme} />
