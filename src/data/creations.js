@@ -63,19 +63,15 @@ import branding_emotion_image_2 from "../assets/img/creations/design/branding_em
 import branding_emotion_image_3 from "../assets/img/creations/design/branding_emotion/branding_emotion_image_3.png";
 
 //Bande annonce film
-import bande_annonce_film from "../assets/files/creations/films/bande_annonce_film/bande_annonce_film.mp4";
 import bande_annonce_film_image_principale from "../assets/files/creations/films/bande_annonce_film/bande_annonce_film_image_principale.png";
 
 //Film d'horreur
-import film_horreur from "../assets/files/creations/films/film_horreur/film_horreur.mp4";
 import film_horreur_image_principale from "../assets/files/creations/films/film_horreur/film_horreur_image_principale.png";
 
 //Le braquage
-import le_braquage from "../assets/files/creations/films/le_braquage/le_braquage.mp4";
 import le_braquage_image_principale from "../assets/files/creations/films/le_braquage/le_braquage_image_principale.png";
 
 //Documentaire 3D
-import documentaire_3D from "../assets/files/creations/films/documentaire_3D/documentaire_3D.mp4";
 import documentaire_3D_image_principale from "../assets/files/creations/films/documentaire_3D/documentaire_3D_image_principale.png";
 
 const themes = {
