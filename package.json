@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nicos-08.github.io/Portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass --watch ./src/base:./src/styles/base --watch ./src/components:./src/styles/components --watch ./src/pages:./src/styles/pages"
+    "sass": "sass --watch ./src/base:./src/styles/base --watch ./src/components:./src/styles/components --watch ./src/pages:./src/styles/pages",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "prettier": "2.8.7"
   },
   "author": "Nicos-08",
