@@ -15,13 +15,13 @@
   margin-right: 60px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 50px;
 }
 .projet_page__contenu__section_gauche__section_texte {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   gap: 30px;
   max-height: 10000vh;
 }

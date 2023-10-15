@@ -1,6 +1,6 @@
 //React
 import PropTypes from "prop-types";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
 //Styles
@@ -9,7 +9,6 @@ import "../../styles/pages/projet/projet.css";
 //Composants
 import Visualisateur from "../../components/projets/visualisateur/visualisateur";
 import MenuDeNavigation from "../../components/navigation/menu_de_navigation/menu_de_navigation";
-import Button from "../../components/general/button/button";
 import CadreInfosProjet from "../../components/projets/cadre_infos_projet/cadre_infos_projet";
 import ProjetsSimilaires from "../../components/projets/projets_similaires/projets_similaires";
 
