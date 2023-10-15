@@ -47,7 +47,7 @@ const Layout = () => {
 	
 	return (
 		<div className={`App App--${theme}`}>
-			{/* <Router>
+			<Router>
 				<Routes>
 					<Route
 						exact
@@ -80,8 +80,7 @@ const Layout = () => {
 						element={<PageAccueil theme={theme} setTheme={setTheme} />}
 					></Route>
 				</Routes>
-			</Router> */}
-			<p>Paragraphe de test</p>
+			</Router>
 		</div>
 	);
 };
