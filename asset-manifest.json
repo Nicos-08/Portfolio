@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.598c5b5c.css",
-    "main.js": "/Portfolio/static/js/main.7b4c69b4.js",
+    "main.js": "/Portfolio/static/js/main.fbdb863c.js",
     "static/media/branding_emotion.pdf": "/Portfolio/static/media/branding_emotion.cdcc4694711995126774.pdf",
     "static/media/app_musique.xd": "/Portfolio/static/media/app_musique.f00216b659a3b2e98c42.xd",
     "static/media/chocolaterie_image_4.png": "/Portfolio/static/media/chocolaterie_image_4.394826218aaee4b533be.png",
@@ -79,10 +79,10 @@
     "static/media/liquide_-_free_typeface-webfont.woff2": "/Portfolio/static/media/liquide_-_free_typeface-webfont.0c130df60551be35671c.woff2",
     "index.html": "/Portfolio/index.html",
     "main.598c5b5c.css.map": "/Portfolio/static/css/main.598c5b5c.css.map",
-    "main.7b4c69b4.js.map": "/Portfolio/static/js/main.7b4c69b4.js.map"
+    "main.fbdb863c.js.map": "/Portfolio/static/js/main.fbdb863c.js.map"
   },
   "entrypoints": [
     "static/css/main.598c5b5c.css",
-    "static/js/main.7b4c69b4.js"
+    "static/js/main.fbdb863c.js"
   ]
 }
