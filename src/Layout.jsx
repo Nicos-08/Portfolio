@@ -45,7 +45,7 @@ const Layout = () => {
 
 	return (
 		<div className={`App App--${theme}`}>
-			<Router basename="/Portfolio">
+			<Router>
 				<Routes>
 					<Route
 						exact
