@@ -1,5 +1,5 @@
 //React
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 //Pages
 import PageCompetences from "../src/pages/competences/competences";
@@ -29,7 +29,6 @@ const Layout = () => {
 		}
 	}
 
-
 	useEffect(() => {
 		const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -44,10 +43,9 @@ const Layout = () => {
 		};
 	}, []);
 
-	
 	return (
 		<div className={`App App--${theme}`}>
-			<Router>
+			<Router basename="/Portfolio">
 				<Routes>
 					<Route
 						exact
