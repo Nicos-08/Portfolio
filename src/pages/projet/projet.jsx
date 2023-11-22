@@ -2,6 +2,7 @@
 import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 //Styles
 import "../../styles/pages/projet/projet.css";
@@ -11,6 +12,7 @@ import Visualisateur from "../../components/projets/visualisateur/visualisateur"
 import MenuDeNavigation from "../../components/navigation/menu_de_navigation/menu_de_navigation";
 import CadreInfosProjet from "../../components/projets/cadre_infos_projet/cadre_infos_projet";
 import ProjetsSimilaires from "../../components/projets/projets_similaires/projets_similaires";
+import Button from "../../components/general/button/button";
 
 //Data
 import creations from "../../data/creations";
@@ -28,7 +30,7 @@ const PageProjet = ({ theme, setTheme }) => {
 			<MenuDeNavigation
 				theme={theme}
 				menu_ouvert={false}
-				arborescence={["Projet", projet.nom]}
+				arborescence={["Créations", projet.nom]}
 				setTheme={setTheme}
 			/>
 			<div className="projet_page__visualisateur">
@@ -48,6 +50,9 @@ const PageProjet = ({ theme, setTheme }) => {
 							{projet.description}
 						</p>
 					</div>
+					<Link to="/creations">
+						<Button texte="Retour aux projets" />
+					</Link>
 				</div>
 				<div className="projet_page__contenu__section_droite">
 					<CadreInfosProjet projet={projet} theme={theme} />
