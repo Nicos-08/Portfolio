@@ -20,13 +20,11 @@ import tcl_image_principale from "../assets/img/creations/programmation/tcl/imag
 import tcl_image_1 from "../assets/img/creations/programmation/tcl/image_1_tcl.png";
 
 //Motifs
-import motifs_pdf from "../assets/files/creations/design/motifs.pdf";
 import motifs_image_principale from "../assets/img/creations/design/motifs/image_principale_motifs.png";
 import motifs_image_1 from "../assets/img/creations/design/motifs/image_1_motifs.png";
 import motifs_image_2 from "../assets/img/creations/design/motifs/image_2_motifs.png";
 
 //Architecture
-import architecture_pdf from "../assets/files/creations/design/architecture.pdf";
 import architecture_image_principale from "../assets/img/creations/design/architecture/image_principale_architecture.png";
 import architecture_image_1 from "../assets/img/creations/design/architecture/image_1_architecture.png";
 import architecture_image_2 from "../assets/img/creations/design/architecture/image_2_architecture.png";
@@ -40,7 +38,6 @@ import portfolio_image_4 from "../assets/img/creations/design/portfolio/image_4_
 import portfolio_image_5 from "../assets/img/creations/design/portfolio/image_5_portfolio.png";
 
 //App musique
-import app_musique_xd from "../assets/files/creations/design/app_musique.xd";
 import app_musique_image_principale from "../assets/img/creations/design/app_musique/image_principale_app_musique.png";
 import app_musique_image_2 from "../assets/img/creations/design/app_musique/image_2_app_musique.png";
 import app_musique_image_3 from "../assets/img/creations/design/app_musique/image_3_app_musique.png";
@@ -48,7 +45,6 @@ import app_musique_image_4 from "../assets/img/creations/design/app_musique/imag
 import app_musique_image_5 from "../assets/img/creations/design/app_musique/image_5_app_musique.png";
 
 //Chocolaterie
-import chocolaterie from "../assets/files/creations/design/chocolaterie.pdf";
 import chcolaterie_image_principale from "../assets/img/creations/design/chocolaterie/chocolaterie_image_principale.png";
 import chcolaterie_image_1 from "../assets/img/creations/design/chocolaterie/chocolaterie_image_1.png";
 import chcolaterie_image_2 from "../assets/img/creations/design/chocolaterie/chocolaterie_image_2.png";
@@ -56,23 +52,22 @@ import chcolaterie_image_3 from "../assets/img/creations/design/chocolaterie/cho
 import chcolaterie_image_4 from "../assets/img/creations/design/chocolaterie/chocolaterie_image_4.png";
 
 //Branding emotion
-import branding_emotion from "../assets/files/creations/design/branding_emotion.pdf";
 import branding_emotion_image_principale from "../assets/img/creations/design/branding_emotion/branding_emotion_image_principale.png";
 import branding_emotion_image_1 from "../assets/img/creations/design/branding_emotion/branding_emotion_image_1.png";
 import branding_emotion_image_2 from "../assets/img/creations/design/branding_emotion/branding_emotion_image_2.png";
 import branding_emotion_image_3 from "../assets/img/creations/design/branding_emotion/branding_emotion_image_3.png";
 
 //Bande annonce film
-import bande_annonce_film_image_principale from "../assets/files/creations/films/bande_annonce_film/bande_annonce_film_image_principale.png";
+import bande_annonce_film_image_principale from "../assets/img/creations/films/bande_annonce_film_image_principale.jpg";
 
 //Film d'horreur
-import film_horreur_image_principale from "../assets/files/creations/films/film_horreur/film_horreur_image_principale.png";
+import film_horreur_image_principale from "../assets/img/creations/films/film_horreur_image_principale.jpg";
 
 //Le braquage
-import le_braquage_image_principale from "../assets/files/creations/films/le_braquage/le_braquage_image_principale.png";
+import le_braquage_image_principale from "../assets/img/creations/films/le_braquage_image_principale.jpg";
 
 //Documentaire 3D
-import documentaire_3D_image_principale from "../assets/files/creations/films/documentaire_3D/documentaire_3D_image_principale.png";
+import documentaire_3D_image_principale from "../assets/img/creations/films/documentaire_3D_image_principale.jpg";
 
 const themes = {
 	programmation: "Programmation",
@@ -140,7 +135,7 @@ const creations = [
 				annee: "2023",
 			},
 		},
-		lien: branding_emotion,
+		lien: "https://www.behance.net/gallery/185124543/Design-branding-emotion",
 		imagePrincipale: [{ original: branding_emotion_image_principale }],
 		imagePrincipalePosition: "left",
 		images: [
@@ -278,7 +273,7 @@ const creations = [
 				annee: "2022",
 			},
 		},
-		lien: architecture_pdf,
+		lien: "https://www.behance.net/gallery/185123615/Design-architecture",
 		imagePrincipale: [{ original: architecture_image_principale }],
 		imagePrincipalePosition: "center",
 		images: [
@@ -308,7 +303,7 @@ const creations = [
 				annee: "2022",
 			},
 		},
-		lien: motifs_pdf,
+		lien: "https://www.behance.net/gallery/185124027/Motifs",
 		imagePrincipale: [{ original: motifs_image_principale }],
 		imagePrincipalePosition: "center",
 		images: [{ original: motifs_image_1 }, { original: motifs_image_2 }],
@@ -405,7 +400,7 @@ const creations = [
 				annee: "2023",
 			},
 		},
-		lien: chocolaterie,
+		lien: "https://www.behance.net/gallery/185124835/Design-chocolaterie",
 		imagePrincipale: [{ original: chcolaterie_image_principale }],
 		imagePrincipalePosition: "left",
 		images: [
@@ -474,7 +469,7 @@ const creations = [
 				annee: "2023",
 			},
 		},
-		lien: app_musique_xd,
+		lien: "https://www.behance.net/gallery/185124339/Design-interface-appli-de-straming-musical",
 		imagePrincipale: [{ original: app_musique_image_principale }],
 		imagePrincipalePosition: "top",
 		images: [
