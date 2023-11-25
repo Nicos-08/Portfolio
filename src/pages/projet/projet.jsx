@@ -46,6 +46,7 @@ const PageProjet = ({ theme, setTheme }) => {
 						</span>
 						<p
 							className={`projet_page__contenu__section_gauche__section_texte__description projet_page__contenu__section_gauche__section_texte__description--${theme}`}
+							style={{ whiteSpace: "pre-line" }}
 						>
 							{projet.description}
 						</p>
