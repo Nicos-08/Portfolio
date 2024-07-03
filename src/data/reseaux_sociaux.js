@@ -11,7 +11,7 @@ const reseaux_sociaux = {
 	github: {
 		image: github_logo,
 		texte: "Nicos-08",
-		lien: "https://github.com/Nicos-08",
+		lien: "https://github.com/nicolas-frzt",
 	},
 	emails: {
 		image: emails_logo,
