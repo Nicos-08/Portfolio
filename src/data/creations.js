@@ -69,6 +69,12 @@ import le_braquage_image_principale from "../assets/img/creations/films/le_braqu
 //Documentaire 3D
 import documentaire_3D_image_principale from "../assets/img/creations/films/documentaire_3D_image_principale.jpg";
 
+// Statistiques WhatsApp
+import stats_whatsapp_image_principale from "../assets/img/creations/programmation/stats_whatsapp/image_principale_stats_whatsapp.png";
+import stats_whatsapp_image_1 from "../assets/img/creations/programmation/stats_whatsapp/image_1_stats_whatsapp.png";
+import stats_whatsapp_image_2 from "../assets/img/creations/programmation/stats_whatsapp/image_2_stats_whatsapp.png";
+import stats_whatsapp_image_3 from "../assets/img/creations/programmation/stats_whatsapp/image_3_stats_whatsapp.png";
+
 const themes = {
 	programmation: "Programmation",
 	design: "Design",
@@ -265,6 +271,37 @@ const creations = [
 		],
 	},
 	{
+		nom: "Statistiques WhatsApp",
+		description: `En fin d'année, beaucoup d'applications telles que Spotify ou Deezer créent une rétrospective de l'année écoulée. Cependant WhatsApp ne nous propose jamais de statistiques sur notre utilisation de l'application 😕. J'étais curieux de savoir combien de messages j'avais envoyés à mon meilleur ami et qui envoyait le plus de messages entre ma mère et moi (même si j'en ai déjà une petite idée 😂). Je me suis donc lancé dans la création d'un site de statistiques WhatsApp. En allant dans les paramètres d'une discussion, on peut exporter tous les messages. J'utilise donc cette base de données pour ensuite la traiter 🤓. J'ai commencé par créer cet outil sans interface et en renvoyant les résultats dans la console. Mais j'ai vite trouvé que ce n'était pas très esthétique et je me suis lancé dans la création d'un site 😁. Il a fallu que je trouve une bibliothèque pour afficher les graphiques. Je me suis inspiré des stories d'Instagram pour afficher les données une à une. Je trouve que mon site est plus pratique que les autres concurrents que l'on retrouve sur internet grâce à ce défilement d'informations, mais il reste encore quelques points à améliorer tel que le support des groupes. Alors si vous aussi vous souhaitez savoir quel emoji vous avez le plus envoyé à votre meilleure amie, n'hésitez pas à utiliser mon outil 😜`,
+		theme: themes.programmation,
+		tags: [
+			tags.programmation.react,
+			tags.programmation.javascript,
+			tags.programmation.database,
+			tags.programmation.css,
+			tags.programmation.projet_perso,
+		],
+		id: "5",
+		dates: {
+			debut: {
+				mois: "04",
+				annee: "2023",
+			},
+			fin: {
+				mois: "06",
+				annee: "2023",
+			},
+		},
+		lien: "https://nicolas-frzt.github.io/stats-whatsapp/",
+		imagePrincipale: [{ original: stats_whatsapp_image_principale }],
+		imagePrincipalePosition: "center",
+		images: [
+			{ original: stats_whatsapp_image_1 },
+			{ original: stats_whatsapp_image_2 },
+			{ original: stats_whatsapp_image_3 },
+		],
+	},
+	{
 		nom: "Motifs",
 		description: `J’ai réalisé ce projet dans mon activité d’informatique organisée par ma région (du nom de Tumo). Le but de Tumo est de former les jeunes aux compétences du numérique (on n’a pas tous les mêmes activités extra-scolaires 😂). Ils proposent différentes thématiques (que vous pouvez retrouver sur leur site) et, après avoir réalisé une activité de découverte de chacune d’entre elles, les jeunes peuvent choisir 3 thématiques pour faire des activités et des projets avancés sur la thématique. Parmi ces 3 activités, j’ai donc choisis le design graphique (évidemment ☺️).
         Le premier projet sur lequel nous devions travailler était la réalisation de motifs. C’était vraiment très difficile mais très plaisant à réaliser. Effectivement j’ai, pour la première fois de ma vie, utilisé Adobe Illustrator 😍. C’est vraiment un logiciel incroyable mais que je ne peux malheureusement pas m’acheter 💸. Alors, quel plaisir de pouvoir l’utiliser à Tumo !         
@@ -272,7 +309,7 @@ const creations = [
         Finalement, j’ai réalisé 3 versions différentes, en utilisant la même forme de départ sur chacune des versions mais en faisant varier la fréquence et les couleurs. Je trouve le résultat très sympathique, cependant je ne porterais pas un T-Shirt avec ce motif 🤣.`,
 		theme: themes.design,
 		tags: [tags.design.illustrator, tags.design.vecteur, tags.design.tumo],
-		id: "5",
+		id: "6",
 		dates: {
 			debut: {
 				mois: "05",
@@ -300,7 +337,7 @@ const creations = [
 			tags.programmation.html,
 			tags.programmation.projet_perso,
 		],
-		id: "6",
+		id: "7",
 		dates: {
 			debut: {
 				mois: "02",
@@ -331,7 +368,7 @@ const creations = [
 			tags.films.storyboard,
 			tags.films.tumo,
 		],
-		id: "7",
+		id: "8",
 		dates: {
 			debut: {
 				mois: "01",
@@ -358,7 +395,7 @@ const creations = [
 		Finalement, je suis assez fier du résultat même si je trouve que je suis parti un peu trop dans une chocolaterie de luxe plutôt que dans une chocolaterie de qualité.`,
 		theme: themes.design,
 		tags: [tags.design.branding, tags.design.projet_perso],
-		id: "8",
+		id: "9",
 		dates: {
 			debut: {
 				mois: "08",
@@ -387,7 +424,7 @@ const creations = [
 		Mon résultat final est plutôt pas mal malgré le fait que le changement de musique soit assez brusque 😲.`,
 		theme: themes.films,
 		tags: [tags.films.montage, tags.films.bande_annonce, tags.films.tumo],
-		id: "9",
+		id: "10",
 		dates: {
 			debut: {
 				mois: "06",
@@ -420,7 +457,7 @@ const creations = [
 			tags.design.photoshop,
 			tags.design.tumo,
 		],
-		id: "10",
+		id: "11",
 		dates: {
 			debut: {
 				mois: "01",
@@ -450,7 +487,7 @@ const creations = [
         J’ai pris beaucoup de plaisir à réaliser ce projet car le design d’interface est quelque chose qui me passionne. J’ai essayé de faire un Portfolio très propre et qui me corresponde 🌟.`,
 		theme: themes.design,
 		tags: [tags.design.figma, tags.design.maquette, tags.design.projet_perso],
-		id: "11",
+		id: "12",
 		dates: {
 			debut: {
 				mois: "03",
@@ -480,7 +517,7 @@ const creations = [
 		Pour une fois, je ne suis pas entièrement satisfait du résultat car je trouve que la peur ne se ressent pas assez. Mais il y a un début à tout 😉 !`,
 		theme: themes.films,
 		tags: [tags.films.montage, tags.films.tumo],
-		id: "12",
+		id: "13",
 		dates: {
 			debut: {
 				mois: "06",
@@ -507,7 +544,7 @@ const creations = [
 			tags.programmation.javascript,
 			tags.programmation.database,
 		],
-		id: "13",
+		id: "14",
 		dates: {
 			debut: {
 				mois: "12",
