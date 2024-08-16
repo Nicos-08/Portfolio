@@ -70,10 +70,10 @@ import le_braquage_image_principale from "../assets/img/creations/films/le_braqu
 import documentaire_3D_image_principale from "../assets/img/creations/films/documentaire_3D_image_principale.jpg";
 
 // Statistiques WhatsApp
-import stats_whatsapp_image_principale from "../assets/img/creations/programmation/stats_whatsapp/image_principale_stats_whatsapp.png";
-import stats_whatsapp_image_1 from "../assets/img/creations/programmation/stats_whatsapp/image_1_stats_whatsapp.png";
-import stats_whatsapp_image_2 from "../assets/img/creations/programmation/stats_whatsapp/image_2_stats_whatsapp.png";
-import stats_whatsapp_image_3 from "../assets/img/creations/programmation/stats_whatsapp/image_3_stats_whatsapp.png";
+import stats_whatsapp_image_principale from "../assets/img/creations/programmation/stats_whatsapp/image_principale_stats_whatsapp.jpg";
+import stats_whatsapp_image_1 from "../assets/img/creations/programmation/stats_whatsapp/image_1_stats_whatsapp.jpg";
+import stats_whatsapp_image_2 from "../assets/img/creations/programmation/stats_whatsapp/image_2_stats_whatsapp.jpg";
+import stats_whatsapp_image_3 from "../assets/img/creations/programmation/stats_whatsapp/image_3_stats_whatsapp.jpg";
 
 const themes = {
 	programmation: "Programmation",
