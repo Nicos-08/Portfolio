@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.598c5b5c.css",
-    "main.js": "/Portfolio/static/js/main.be630353.js",
+    "main.js": "/Portfolio/static/js/main.230f2970.js",
     "static/media/chocolaterie_image_4.png": "/Portfolio/static/media/chocolaterie_image_4.394826218aaee4b533be.png",
     "static/media/image_5_app_musique.png": "/Portfolio/static/media/image_5_app_musique.f7fccb3a3a000ebab9d2.png",
     "static/media/chocolaterie_image_3.png": "/Portfolio/static/media/chocolaterie_image_3.7fbdf954959d186c87ac.png",
@@ -45,10 +45,14 @@
     "static/media/Chillax-Medium.ttf": "/Portfolio/static/media/Chillax-Medium.bd1fdefdb415380f3f52.ttf",
     "static/media/Chillax-Regular.ttf": "/Portfolio/static/media/Chillax-Regular.50d2215815ebd5becebc.ttf",
     "static/media/Chillax-Semibold.ttf": "/Portfolio/static/media/Chillax-Semibold.852911bb88ac3582fb3d.ttf",
+    "static/media/image_2_stats_whatsapp.jpg": "/Portfolio/static/media/image_2_stats_whatsapp.6d047f9c89bf792d7fff.jpg",
     "static/media/Chillax-Extralight.ttf": "/Portfolio/static/media/Chillax-Extralight.a4056cb2af95b3ceffc1.ttf",
     "static/media/Chillax-Bold.ttf": "/Portfolio/static/media/Chillax-Bold.afec4fb98c81e138a906.ttf",
     "static/media/image_2_todo_list.png": "/Portfolio/static/media/image_2_todo_list.c8c948330bcc2fcd045e.png",
     "static/media/Chillax-Variable.woff2": "/Portfolio/static/media/Chillax-Variable.9cf7581f93eb915d1c88.woff2",
+    "static/media/image_1_stats_whatsapp.jpg": "/Portfolio/static/media/image_1_stats_whatsapp.d37db7c709eb7d200d07.jpg",
+    "static/media/image_3_stats_whatsapp.jpg": "/Portfolio/static/media/image_3_stats_whatsapp.8069be43425001f9104a.jpg",
+    "static/media/image_principale_stats_whatsapp.jpg": "/Portfolio/static/media/image_principale_stats_whatsapp.497ffade2cdadb175c3d.jpg",
     "static/media/film_horreur_image_principale.jpg": "/Portfolio/static/media/film_horreur_image_principale.7c138895bf339e340f4c.jpg",
     "static/media/branding_emotion_image_principale.png": "/Portfolio/static/media/branding_emotion_image_principale.fd532f5efbdd9a904899.png",
     "static/media/image_1_tcl.png": "/Portfolio/static/media/image_1_tcl.75e9f84a669e4a96ebf4.png",
@@ -74,10 +78,10 @@
     "static/media/liquide_-_free_typeface-webfont.woff2": "/Portfolio/static/media/liquide_-_free_typeface-webfont.0c130df60551be35671c.woff2",
     "index.html": "/Portfolio/index.html",
     "main.598c5b5c.css.map": "/Portfolio/static/css/main.598c5b5c.css.map",
-    "main.be630353.js.map": "/Portfolio/static/js/main.be630353.js.map"
+    "main.230f2970.js.map": "/Portfolio/static/js/main.230f2970.js.map"
   },
   "entrypoints": [
     "static/css/main.598c5b5c.css",
-    "static/js/main.be630353.js"
+    "static/js/main.230f2970.js"
   ]
 }
