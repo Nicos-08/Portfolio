@@ -5,7 +5,7 @@ import emails_logo from "../assets/img/contact/emails_logo.png";
 const reseaux_sociaux = {
 	instagram: {
 		image: instagram_logo,
-		texte: "nicolas_loul",
+		texte: "nicolas_frzt",
 		lien: "https://www.instagram.com/nicolas_frzt/",
 	},
 	github: {

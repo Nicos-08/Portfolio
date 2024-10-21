@@ -7,8 +7,8 @@ const TexteChangeant = ({ theme }) => {
 	const el = React.useRef(null);
 	React.useEffect(() => {
 		const typed = new Typed(el.current, {
-			strings: ["developpeur", "designer", "monteur"],
-			typeSpeed: 60,
+			strings: ["code", "design", "montage"],
+			typeSpeed: 70,
 			backSpeed: 40,
 			loop: true,
 		});
@@ -21,7 +21,7 @@ const TexteChangeant = ({ theme }) => {
 
 	return (
 		<div className={`texte_changeant texte_changeant--${theme}`}>
-			<span>{"Je suis "}</span>
+			<span>{"Je fais du "}</span>
 			<span ref={el}></span>
 		</div>
 	);
