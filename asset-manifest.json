@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.598c5b5c.css",
-    "main.js": "/Portfolio/static/js/main.230f2970.js",
+    "main.css": "/Portfolio/static/css/main.c293b5f9.css",
+    "main.js": "/Portfolio/static/js/main.51d16e92.js",
     "static/media/chocolaterie_image_4.png": "/Portfolio/static/media/chocolaterie_image_4.394826218aaee4b533be.png",
     "static/media/image_5_app_musique.png": "/Portfolio/static/media/image_5_app_musique.f7fccb3a3a000ebab9d2.png",
     "static/media/chocolaterie_image_3.png": "/Portfolio/static/media/chocolaterie_image_3.7fbdf954959d186c87ac.png",
@@ -77,11 +77,11 @@
     "static/media/liquide_-_free_typeface-webfont.woff": "/Portfolio/static/media/liquide_-_free_typeface-webfont.08041acf89b0ae38bccb.woff",
     "static/media/liquide_-_free_typeface-webfont.woff2": "/Portfolio/static/media/liquide_-_free_typeface-webfont.0c130df60551be35671c.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.598c5b5c.css.map": "/Portfolio/static/css/main.598c5b5c.css.map",
-    "main.230f2970.js.map": "/Portfolio/static/js/main.230f2970.js.map"
+    "main.c293b5f9.css.map": "/Portfolio/static/css/main.c293b5f9.css.map",
+    "main.51d16e92.js.map": "/Portfolio/static/js/main.51d16e92.js.map"
   },
   "entrypoints": [
-    "static/css/main.598c5b5c.css",
-    "static/js/main.230f2970.js"
+    "static/css/main.c293b5f9.css",
+    "static/js/main.51d16e92.js"
   ]
 }
